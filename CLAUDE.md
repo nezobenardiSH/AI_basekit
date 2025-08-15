@@ -26,19 +26,43 @@ AI_basekit is an AI agent orchestration framework for developing AI-powered appl
    - Provides quality score (1-10)
    - Generates validation report with recommendations
 
+4. **`/validate-idea`** - Stage 1 command for orchestrated agent validation discussions
+   - 3-round structured validation process (Clarify → Challenge → Synthesize)
+   - Multi-agent collaboration (moderator, tech, business, UX, risk agents)
+
+5. **`/execute-prp`** - Stage 4 command for PRP implementation with embedded validation
+
 ## Architecture & Agents
 
 ### Core Agent Types
 
 Located in `/agents/`:
+
+**Stage 1: Validation Agents**
 - **moderator-agent**: Orchestrates 3-round validation discussions
 - **tech-agent**: Evaluates technical feasibility
 - **business-agent**: Assesses market opportunity
 - **user-experience-agent**: Analyzes user workflows and adoption
+
+**Stage 2: PRP Creation Agents**
+- **context-researcher-agent**: Finds relevant docs, patterns, libraries
+- **task-breakdown-agent**: Breaks ideas into implementable phases
 - **technical-architect-agent**: Designs system architecture for PRPs
+- **integration-agent**: Considers existing codebase integration
+
+**Stage 3: PRP Validation Agents**
+- **context-validator-agent**: Verifies documentation completeness
+- **task-validator-agent**: Ensures implementable task progression
+- **technical-validator-agent**: Reviews architecture decisions
+- **completeness-validator-agent**: Checks for gaps and completeness
+
+**Stage 4: Implementation Validation**
+- **code-reviewer**: Reviews implementation quality
+- **integration-agent**: Validates system integration
 
 ### Data Resources
 
+- `/context/`: Contains existing system documentation and descriptions for context research
 - `/data/`: Optional directory for project-specific data files (personas, user types, etc.)
 
 ### Output Structure
@@ -53,6 +77,9 @@ outputs/
 ### Templates
 
 - `/template/prp_base.md`: Base template for PRP generation with validation loops
+  - Includes context-rich structure with validation agents
+  - Requires MUST READ section, task breakdown, and validation framework
+  - Progressive success approach: start simple, validate, enhance
 
 ## Development Patterns
 
@@ -80,9 +107,44 @@ Every PRP must include:
 - **Stage 4 Success**: ≥80% confidence from all validation agents
 
 
+## Build & Test Commands
+
+### TypeScript Projects
+- **Type checking**: `tsc --no-emit` (runs automatically after Write/Edit operations via hooks)
+- **No package.json found**: This is a documentation/agent framework project
+
+### Python Projects (when applicable)
+- **Linting**: `ruff check [file]` or `ruff check src/`
+- **Type checking**: `mypy [file]` or `mypy src/`
+- **Testing**: `pytest` or `python -m pytest`
+- **Auto-fix**: `ruff check [file] --fix`
+
+## Validation Framework
+
+### Confidence Thresholds
+- **≥80% confidence**: Automatic progression to next phase
+- **<80% confidence**: Manual human validation required
+- **Quality gates**: Stage 3 requires >8/10 score for progression
+
+### Embedded Validation Loops
+PRPs include executable validation commands:
+```bash
+# Level 1: Syntax & Style
+ruff check src/new_feature.py --fix
+mypy src/new_feature.py
+
+# Level 2: Unit Tests
+uv run pytest test_new_feature.py -v
+
+# Level 3: Integration Test
+curl -X POST http://localhost:8000/feature
+```
+
 ## Important Notes
 
 1. Always check `/commands/start-project.md` for complete workflow details
 2. Validation agents require ≥80% confidence for automatic progression
 3. PRPs follow the `/template/prp_base.md` structure exactly
 4. Each stage has human checkpoints for approval before proceeding
+5. Context research uses `/context/` folder for existing system documentation
+6. TypeScript type checking runs automatically via post-tool-use hooks
