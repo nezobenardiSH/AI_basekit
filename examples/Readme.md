@@ -1,0 +1,1 @@
+This folder contains examples of existing code and patterns to follow.  The context researcher agent will scan this folder for relevant examples to include in the PRP.

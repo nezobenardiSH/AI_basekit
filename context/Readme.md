@@ -1,0 +1,1 @@
+This folder contains existing system documentation and descriptions, like how BO, POS, Beep, etc works.  The context researcher agent will scan this folder for relevant information to include in the PRP.
