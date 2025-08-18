@@ -1,8 +1,10 @@
-# Execute BASE PRP
+# Execute PRP
 
-Implement a feature using using the PRP file.
+Implement a feature using the PRP file.
 
 **Command:** `/execute-prp [optional: initial-idea-description]`
+
+**Expected Input**: validated prp from stage 3 (e.g., `outputs/validations/prp-validation-[project-name]-[date].md`)
 
 ## PRP File: $ARGUMENTS
 
@@ -24,13 +26,41 @@ Implement a feature using using the PRP file.
 3. **Execute the plan**
    - Execute the PRP
    - Implement all the code
+   - Concurrent Task Execution (if applicable) 
+      **For tasks marked [CONCURRENT] in PRP:**: 
+      **Sub-Agent Coordination:**
+      - Assign each [CONCURRENT] task to appropriate specialized sub-agent
+      - Execute all concurrent tasks simultaneously
+      - Collect results from all sub-agents
+      - Synthesize concurrent task results for sequential phase
 
-4. **Validate**
+      **For tasks marked [SEQUENTIAL] or [DEPENDS: TaskX]:**
+      - Load compressed context from previous tasks (if any)
+      - Assign task to appropriate implementation sub-agent
+      - Execute single focused task with compressed context
+
+
+#### 4.1 Context Compression After Each Task
+```markdown
+After completing each sequential task:
+@context-manager-agent compress the following:
+- Task: [completed task name]
+- Results: [files created, key functions, integration points]
+- Patterns: [coding patterns established]
+- Next Task Needs: [what subsequent task requires]
+```
+
+#### 4.2 Context Handoff to Next Task
+- Provide compressed context (< 500 tokens) to next task
+- Include only essential integration points and patterns
+- Remove implementation details and verbose explanations
+
+5. **Validate**
    - Run each validation command
    - Fix any failures
    - Re-run until all pass
 
-5. **Complete**
+6. **Complete**
    - Ensure all checklist items done
    - Run final validation suite
    - Report completion status

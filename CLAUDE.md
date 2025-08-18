@@ -84,10 +84,33 @@ Every PRP must include:
 - **Stage 3**: PRP quality score >8/10 with complete specifications
 - **Stage 4**: All validation agents report ≥80% confidence
 
+## Directory Structure & Purpose
+
+```
+context/            # Existing system documentation (BO, POS, Beep systems)
+data/               # Project data like user personas, lists
+examples/           # Code patterns and examples for reference
+outputs/
+├── ideas/          # Stage 1: Validated concepts
+├── prps/           # Stage 2: Product Requirements Prompts
+└── validations/    # Stage 3-4: Validation reports
+.claude/
+├── agents/         # Specialized agent definitions (24 agents)
+├── commands/       # 5 core workflow commands
+└── settings.local.json  # Permissions and tool access
+```
+
 ## Key Implementation Notes
 
-1. Commands and agents are defined in `.claude/` directory structure
-2. Use `/agents` command to view and manage available agents
+1. This is a framework, not traditional code - no build/test commands needed
+2. Commands and agents are defined in `.claude/` directory structure
 3. Agent collaboration follows: Context Research → Architecture Planning → Task Breakdown → Validation
 4. Each stage includes human checkpoints for approval
 5. Context folder contains existing system descriptions for integration
+6. Framework operates through Claude Code's command system with specialized agents
+
+# important-instruction-reminders
+Do what has been asked; nothing more, nothing less.
+NEVER create files unless they're absolutely necessary for achieving your goal.
+ALWAYS prefer editing an existing file to creating a new one.
+NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.
