@@ -58,7 +58,7 @@ Located in `/.claude/agents/`:
 - **completeness-validator-agent**: Checks for gaps and completeness
 
 **Stage 4: Implementation Validation**
-- **code-reviewer**: Reviews implementation quality
+- **code-review-agent**: Reviews implementation quality
 - **integration-agent**: Validates system integration
 
 ### Data Resources

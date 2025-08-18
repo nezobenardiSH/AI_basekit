@@ -73,7 +73,7 @@ Include validation requirements for each implementation phase:
 After each implementation phase, call the following validation agents:
 
 ### Phase Validation Requirements
-- **@code-reviewer**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
+- **@code-review-agent**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
 - **@functional-test-agent**: Validate feature correctness and user experience (Target: ≥80% confidence)  
 - **@integration-test-agent**: Test system compatibility and performance (Target: ≥80% confidence)
 - **@security-agent**: Check security vulnerabilities and compliance (Target: ≥80% confidence)

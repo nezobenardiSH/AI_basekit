@@ -88,7 +88,7 @@ Execute end-to-end AI project development workflow: validate ideas → create co
 2. **Validation-Driven Progression**
    - **≥80% confidence:** Auto-proceed to next phase
    - **<80% confidence:** Manual review required
-   - Validation agents: @code-reviewer, @functional-test-agent, @integration-test-agent, @security-agent
+   - Validation agents: @code-review-agent, @functional-test-agent, @integration-test-agent, @security-agent
 
 3. **Output**
    - Implementation code in project structure
