@@ -3,4 +3,5 @@ AI_basekit is an AI agent orchestration framework for developing AI-powered appl
 1. Clone this project git clone https://github.com/nezobenardiSH/AI_basekit.git 'your-folder-name'
 2. Remove origin 'git remote remove origin'
 3. Move it to your repo 'git remote add origin 'your-new-repo-url'
-4. Initiate the flow by typing /start-project
+4. Check using 'git remote -v' if you're in the right repo
+5. Initiate the flow by typing /start-project
