@@ -36,7 +36,7 @@ AI_basekit is an AI agent orchestration framework for developing AI-powered appl
 
 ### Core Agent Types
 
-Located in `/agents/`:
+Located in `/.claude/agents/`:
 
 **Stage 1: Validation Agents**
 - **moderator-agent**: Orchestrates 3-round validation discussions
@@ -142,7 +142,7 @@ curl -X POST http://localhost:8000/feature
 
 ## Important Notes
 
-1. Always check `/commands/start-project.md` for complete workflow details
+1. Always check `/.claude/commands/start-project.md` for complete workflow details
 2. Validation agents require ≥80% confidence for automatic progression
 3. PRPs follow the `/template/prp_base.md` structure exactly
 4. Each stage has human checkpoints for approval before proceeding
