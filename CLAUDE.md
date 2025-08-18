@@ -20,19 +20,12 @@ AI_basekit is an AI agent orchestration framework for developing AI-powered appl
 ### Available Agents (/.claude/agents/)
 
 **Validation & Review**
-- `@business-validator` - Market opportunity and monetization strategy assessment
 - `@code-reviewer` - Code quality, security, and maintainability review
-- `@risk-agent` - Risk identification and mitigation planning
 - `@security-agent` - Security vulnerability and compliance checking
 
 **Architecture & Design**
 - `@technical-architect-agent` - System architecture and technology stack design
-- `@tech-agent` - Technical feasibility evaluation
 - `@integration-agent` - System integration and compatibility assessment
-
-**User Experience**
-- `@user-experience-agent` - User workflow and adoption analysis
-- `@moderator-agent` - Orchestrates multi-agent validation discussions
 
 **Task Management**
 - `@task-breakdown-agent` - Breaks ideas into implementable phases
@@ -95,7 +88,7 @@ outputs/
 ├── prps/           # Stage 2: Product Requirements Prompts
 └── validations/    # Stage 3-4: Validation reports
 .claude/
-├── agents/         # Specialized agent definitions (24 agents)
+├── agents/         # Specialized agent definitions (13 agents)
 ├── commands/       # 5 core workflow commands
 └── settings.local.json  # Permissions and tool access
 ```
