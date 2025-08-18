@@ -1,0 +1,239 @@
+{
+  "id": "one-man-show-retail-niche-boutique",
+  "name": "Mei Ling Chong - Retail Boutique Owner-Operator",
+  "userType": "one-man-show",
+  "businessProfile": "retail-niche-boutique-solopreneur",
+  "description": "Owner-operator of a small fashion boutique, embodying the challenges of single-person retail operations with strong social media integration needs",
+  
+  "personalProfile": {
+    "name": "Mei Ling Chong",
+    "age": 29,
+    "business": "Trendy Threads - A boutique fashion store in SS15 Subang Jaya",
+    "role": "Owner-Operator",
+    "tenureWithPlatform": "6 months"
+  },
+
+  "businessContext": {
+    "operationDetails": {
+      "businessType": "Small boutique specializing in Korean fashion and accessories",
+      "location": "Ground floor shophouse with street frontage, 400 sq ft retail space",
+      "operatingHours": "11:00 AM - 9:00 PM daily (closed Tuesdays)",
+      "staffing": "Just Mei Ling (occasionally her sister helps during weekends)",
+      "monthlyRevenue": "RM 18,000-25,000",
+      "averageTransaction": "RM 65",
+      "dailyTransactions": "15-25 customers"
+    },
+    "storeHubSetup": {
+      "plan": "Small annually plan",
+      "equipment": ["1 tablet POS", "1 receipt printer", "mobile payment terminal"],
+      "keyFeatures": ["Basic POS", "inventory tracking", "customer database"],
+      "addOns": "None (budget-conscious startup)"
+    }
+  },
+
+  "dailyWorkflow": {
+    "operationalHours": "11 AM - 9 PM",
+    "schedule": {
+      "morningSetup": "11:00 AM-1:00 PM: Store opening, inventory check, morning customers",
+      "lunchPeriod": "1:00-3:00 PM: Lunch period - moderate foot traffic",
+      "quietPeriod": "3:00-6:00 PM: Quiet period - online orders, restocking, admin tasks",
+      "eveningRush": "6:00-8:00 PM: Evening rush - working customers after office hours",
+      "windDown": "8:00-9:00 PM: Wind down, final customers, closing preparation"
+    },
+    "afterHours": "9:30 PM - 10:30 AM",
+    "afterHoursActivities": {
+      "closingDuties": "9:30-11:00 PM: Closing duties, sales review, online engagement",
+      "personalTime": "11:00 PM-8:00 AM: Personal time, sleep, social media browsing",
+      "businessPrep": "8:00-10:30 AM: Supplier calls, online sourcing, market research"
+    }
+  },
+
+  "technologyBehavior": {
+    "deviceUsagePatterns": {
+      "duringBusinessHours": "Tablet POS + personal smartphone for Instagram/WhatsApp",
+      "afterHours": "95% smartphone, 5% laptop (for supplier communications)",
+      "preferredApps": ["Instagram", "WhatsApp Business", "TikTok", "StoreHub mobile", "online banking"]
+    },
+    "systemInteractionStyle": {
+      "patienceLevel": "Low for complex tasks, especially during customer interactions",
+      "learningPreference": "Visual tutorials, Instagram stories, trial-and-error",
+      "errorTolerance": "Very low - system issues during customer service are embarrassing",
+      "supportPreference": "WhatsApp chat > Instagram DM > phone calls > email"
+    },
+    "informationConsumption": {
+      "reportViewing": "Quick daily sales checks on phone while commuting",
+      "analysisDepth": "Which items sold today? What's my bestseller this week?",
+      "decisionMaking": "Social media trends + sales data + customer feedback",
+      "timeInvestment": "Maximum 10-15 minutes for any administrative task"
+    }
+  },
+
+  "painPointsAndFrustrations": {
+    "operationalChallenges": [
+      "System reliability: 'If POS fails when a customer wants to buy, I lose the sale'",
+      "Speed requirements: 'Customers get impatient if checkout takes too long'",
+      "Multi-tasking: Serving customers, managing inventory, handling social media",
+      "Cash flow: Daily sales determine next week's inventory purchases",
+      "Competition: Online platforms and bigger stores with better prices"
+    ],
+    "technologyFrustrations": [
+      "Complex interfaces: 'Too many screens to navigate during a sale'",
+      "Learning curve: 'No time to learn new features when customers are browsing'",
+      "Connectivity issues: 'Mobile data is expensive, store WiFi is unreliable'",
+      "Update disruptions: 'Don't change the system layout when I'm used to it'",
+      "Mobile limitations: 'Need full functionality on my phone for after-hours work'"
+    ],
+    "administrativeBurdens": [
+      "Inventory management: Tracking sizes, colors, seasonal items manually",
+      "Tax compliance: GST calculations and reporting requirements",
+      "Supplier coordination: Managing multiple small suppliers and payment terms",
+      "Social media: Constant content creation and customer engagement expected",
+      "Customer service: WhatsApp inquiries, size requests, styling advice"
+    ]
+  },
+
+  "goalsAndMotivations": {
+    "primaryBusinessGoals": [
+      "Survival: Maintain consistent monthly revenue to cover rent and living expenses",
+      "Growth: Build loyal customer base and increase average transaction value",
+      "Efficiency: Serve customers faster while providing personalized service",
+      "Brand building: Establish reputation as the go-to boutique for trendy fashion"
+    ],
+    "technologyGoals": [
+      "Simplicity: Streamline checkout and inventory processes",
+      "Reliability: Never fail during customer interactions",
+      "Insights: Quick understanding of bestsellers and slow-moving items",
+      "Mobility: Manage business from anywhere using smartphone"
+    ],
+    "personalGoals": [
+      "Work-life balance: Reduce after-hours admin work to enjoy personal time",
+      "Financial independence: Build sustainable income from passion for fashion",
+      "Creative expression: Curate unique fashion pieces and styling advice",
+      "Community building: Create loyal customer relationships and referrals"
+    ]
+  },
+
+  "behavioralPatterns": {
+    "systemUsageTiming": {
+      "peakUsage": "9:30-11:00 PM (post-closing review)",
+      "quickChecks": "Throughout the day during quiet moments",
+      "emergencyAccess": "Anytime during business hours for customer service",
+      "planningSessions": "Tuesday evenings (closed day) for inventory and social media"
+    },
+    "informationPriorities": [
+      "Daily sales: First check after closing - revenue and item performance",
+      "Inventory levels: What's running low, what needs reordering",
+      "Customer preferences: Sizes, colors, styles that sell well",
+      "Seasonal trends: What's popular on social media and with customers"
+    ],
+    "decisionMakingProcess": {
+      "immediate": "Can I resolve this customer issue in under 2 minutes?",
+      "daily": "What items need restocking or promoting tomorrow?",
+      "weekly": "Which suppliers to contact, what trends to follow?",
+      "monthly": "Is revenue sufficient to sustain and grow the business?"
+    }
+  },
+
+  "technologyAdoptionCriteria": {
+    "mustHaves": [
+      "Instant value: Immediate improvement to customer service or sales tracking",
+      "Intuitive design: Works without training or complex setup",
+      "Mobile-optimized: Full functionality accessible on smartphone",
+      "Reliability: 99.9% uptime during business hours"
+    ],
+    "niceToHaves": [
+      "Social integration: Easy posting of sales items to Instagram/Facebook",
+      "Customer insights: Understanding buying patterns and preferences",
+      "Inventory alerts: Automatic notifications for low stock items",
+      "Trend analysis: Simple reports on bestselling categories"
+    ],
+    "dealBreakers": [
+      "Complexity: Requires extensive training or technical knowledge",
+      "High cost: Monthly fees that significantly impact thin profit margins",
+      "Workflow disruption: Changes familiar processes without clear benefits",
+      "Technical dependency: Requires IT support or constant maintenance"
+    ]
+  },
+
+  "communicationPreferences": {
+    "supportChannels": {
+      "whatsappBusiness": "Preferred for quick questions and customer service",
+      "instagramDM": "Acceptable for product inquiries and styling advice",
+      "phone": "Only for urgent technical issues during business hours",
+      "email": "Formal documentation and supplier communications only"
+    },
+    "informationFormat": [
+      "Visual: Instagram-style posts, short videos, infographics",
+      "Bite-sized: Quick tips that can be consumed during customer lulls",
+      "Trendy: Content that feels current and relevant to fashion retail",
+      "Actionable: Immediate steps that improve daily operations"
+    ],
+    "timingPreferences": {
+      "bestTimes": "Evenings (9:30-11:00 PM) and Tuesday afternoons",
+      "avoid": "Peak customer hours (6-8 PM), early mornings",
+      "emergency": "Anytime if customer service or sales are affected",
+      "training": "Tuesday afternoons when store is closed"
+    }
+  },
+
+  "successMetrics": {
+    "businessKPIs": {
+      "dailyRevenueTarget": "RM 750+",
+      "customerServiceTime": "Under 5 minutes per transaction",
+      "paymentProcessing": "45 seconds or less",
+      "monthlyProfitMargin": "40%+",
+      "customerRetention": "60% repeat customers"
+    },
+    "technologyKPIs": {
+      "systemUptime": "99.9% during business hours",
+      "transactionSpeed": "Under 45 seconds",
+      "mobileAppUsage": "Daily engagement for admin tasks",
+      "issueResolution": "Same day for customer-facing problems"
+    },
+    "personalKPIs": {
+      "administrativeTime": "Under 1 hour daily",
+      "learningTime": "Under 30 minutes monthly for new features",
+      "stressLevel": "Manageable during peak customer periods",
+      "personalTime": "Evenings and Tuesdays protected for life balance"
+    }
+  },
+
+  "inventoryAndCustomerManagement": {
+    "inventoryChallenges": [
+      "Size/color matrix: Tracking multiple variants of each item",
+      "Seasonal planning: Predicting trends 2-3 months ahead",
+      "Storage constraints: Limited space requiring efficient turnover",
+      "Supplier diversity: Managing 5-8 small suppliers with different terms"
+    ],
+    "customerRelationshipPriorities": [
+      "Personal styling: Remembering customer preferences and size history",
+      "Social engagement: Responding to Instagram comments and DMs",
+      "Loyalty building: Recognizing repeat customers and offering personalized service",
+      "Word-of-mouth: Encouraging customer referrals and social media posts"
+    ]
+  },
+
+  "socialMediaIntegration": {
+    "contentCreationRequirements": [
+      "Daily posts: New arrivals, styling tips, customer photos",
+      "Stories: Behind-the-scenes, daily operations, quick sales",
+      "Customer engagement: Responding to comments, DMs, styling questions",
+      "Trend monitoring: Following fashion influencers and competitor activities"
+    ],
+    "businessIntegrationDesires": [
+      "Easy product posting: Quick sharing of new inventory to social platforms",
+      "Customer photo collection: Encouraging and organizing customer outfit posts",
+      "Influencer collaboration: Tracking gifted items and partnership results",
+      "Seasonal campaign management: Planning and executing promotional periods"
+    ]
+  },
+
+  "retailSpecificValidationQuestions": [
+    "Does this help me track inventory across sizes and colors easily?",
+    "Can I quickly check stock levels while serving customers?",
+    "Will this work seamlessly on my phone for after-hours management?",
+    "Does it help me identify my bestselling items and slow movers?",
+    "Can I use this without disrupting my customer service flow?",
+    "Is the monthly cost justified by the time or money it saves me?"
+  ]
+} 

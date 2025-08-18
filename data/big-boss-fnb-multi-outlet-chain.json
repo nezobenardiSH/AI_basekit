@@ -1,0 +1,234 @@
+{
+  "id": "big-boss-fnb-multi-outlet-chain",
+  "name": "Datuk Lim Wei Keong - F&B Chain Strategic Owner",
+  "userType": "big-boss",
+  "businessProfile": "fnb-multi-outlet-chain-scaler",
+  "description": "Founder and Executive Chairman of large F&B chain, focusing on strategic growth, profitability, and competitive positioning while maintaining operational excellence across multiple locations",
+  
+  "personalProfile": {
+    "name": "Datuk Lim Wei Keong",
+    "age": 52,
+    "position": "Founder & Executive Chairman",
+    "business": "Mamak King - 28-outlet Malaysian casual dining chain",
+    "role": "Strategic Owner & Board Chairman",
+    "tenureWithPlatform": "4 years"
+  },
+
+  "businessContext": {
+    "empireOverview": {
+      "businessType": "Malaysian casual dining chain specializing in authentic mamak cuisine",
+      "scale": "28 outlets across Malaysia (KL, Selangor, Penang, Johor)",
+      "organizationalStructure": "4 Regional Managers, 28 Store Managers, 450+ total employees",
+      "workingStyle": "C-suite office with quarterly store visits",
+      "monthlyGroupRevenue": "RM 2.8 million across all outlets",
+      "averageTransactionPerOutlet": "RM 15-25 (varies by location)",
+      "growthTrajectory": "6-8 new outlets planned annually"
+    },
+    "storeHubEcosystem": {
+      "plan": "Enterprise-level with full multi-store capabilities",
+      "accessLevel": "God-mode permissions with delegation controls",
+      "keyTools": ["Executive dashboards", "consolidated reporting", "performance analytics"],
+      "addOns": "Full suite - sh-engage, sh-membership, analytics, extra stores/registers"
+    }
+  },
+
+  "strategicWorkflow": {
+    "executiveSchedule": "Flexible Hours",
+    "weeklyStructure": {
+      "monday": "Weekly leadership meetings, performance reviews with regional managers",
+      "tuesdayWednesday": "Strategic planning, new location scouting, investor meetings",
+      "thursday": "Financial reviews, vendor negotiations, expansion planning",
+      "friday": "Market analysis, competitive intelligence, board preparations",
+      "weekend": "Occasional store visits, family time, industry networking"
+    },
+    "systemInteractionPatterns": {
+      "dailyCheck": "20-minute morning dashboard review (7:30-7:50 AM)",
+      "weeklyDeepDive": "2-hour comprehensive analysis session (Friday afternoons)",
+      "monthlyReview": "Half-day strategic session with all regional managers",
+      "quarterlyPlanning": "Multi-day off-site with full leadership team"
+    }
+  },
+
+  "authorityAndDecisionMaking": {
+    "controls": [
+      "Strategic direction: Menu development, brand positioning, expansion plans",
+      "Financial decisions: Capital allocation, pricing strategies, major investments",
+      "Organizational design: Reporting structures, compensation frameworks, KPI targets",
+      "System architecture: Technology choices, integration decisions, permission structures",
+      "Vendor relationships: Supplier agreements, technology partnerships, franchise terms"
+    ],
+    "delegates": [
+      "Daily operations: Store-level execution to regional and store managers",
+      "Staff management: Hiring/firing decisions within approved frameworks",
+      "Local marketing: Promotional activities within brand guidelines",
+      "Inventory management: Ordering and stock control within budget parameters",
+      "Customer service: Issue resolution following established protocols"
+    ],
+    "monitors": [
+      "Financial performance: Revenue, profit margins, cost control across all locations",
+      "Operational excellence: Service standards, food quality, cleanliness scores",
+      "Growth metrics: Customer acquisition, retention, average transaction growth",
+      "Staff performance: Productivity, turnover, training completion rates",
+      "Brand compliance: Adherence to standards, customer satisfaction scores"
+    ]
+  },
+
+  "technologyBehavior": {
+    "deviceAndInterfacePreferences": {
+      "primarySetup": "Dual-monitor desktop in executive office",
+      "secondary": "High-end laptop for travel and meetings",
+      "mobile": "Premium smartphone for alerts and quick checks only",
+      "preferredInterface": "Executive dashboards with drill-down capabilities"
+    },
+    "dataConsumptionStyle": {
+      "executiveSummaries": "High-level KPIs with exception reporting",
+      "trendAnalysis": "Historical comparisons, growth trajectories, forecasting",
+      "benchmarkFocus": "Performance ranking of outlets, regional comparisons",
+      "strategicIntelligence": "Market analysis, competitor monitoring, opportunity identification"
+    },
+    "decisionMakingProcess": {
+      "dataDriven": "Relies heavily on analytics and business intelligence",
+      "strategicThinking": "Long-term planning with quarterly milestone reviews",
+      "delegationOriented": "Empowers teams while maintaining oversight",
+      "riskAssessment": "Careful evaluation of expansion and investment opportunities"
+    }
+  },
+
+  "strategicChallengesAndPriorities": {
+    "growthManagement": [
+      "Scalability pressure: 'How do we maintain quality while expanding rapidly?'",
+      "Market saturation: 'Where are the next profitable locations?'",
+      "Capital allocation: 'Which outlets deserve more investment?'",
+      "Talent pipeline: 'Do we have enough capable managers for growth?'"
+    ],
+    "operationalExcellence": [
+      "Brand consistency: 'Are all outlets delivering the same experience?'",
+      "Cost optimization: 'How can we improve margins without compromising quality?'",
+      "Technology ROI: 'Is our tech stack driving measurable business value?'",
+      "Supply chain: 'Can we negotiate better terms with increased scale?'"
+    ],
+    "marketCompetition": [
+      "Competitive intelligence: 'What are our competitors doing differently?'",
+      "Innovation pressure: 'How do we stay relevant to changing consumer preferences?'",
+      "Digital transformation: 'Are we keeping pace with industry technology trends?'",
+      "Customer retention: 'How do we build lasting loyalty in a crowded market?'"
+    ]
+  },
+
+  "goalsAndStrategicObjectives": {
+    "financialGoals": [
+      "Revenue growth: 25% annual increase in group revenue",
+      "Profitability: Maintain 12%+ net profit margin across all outlets",
+      "Efficiency: Reduce operational costs by 3% annually through optimization",
+      "ROI: Achieve 18%+ return on new outlet investments"
+    ],
+    "operationalGoals": [
+      "Brand standards: 95%+ compliance score across all locations",
+      "Customer satisfaction: Maintain 4.3+ star rating across all outlets",
+      "Staff retention: Keep management turnover below 15% annually",
+      "Expansion: Open 6-8 new profitable locations per year"
+    ],
+    "strategicGoals": [
+      "Market leadership: Become top 3 mamak chain in Malaysia",
+      "Technology excellence: Leverage data for competitive advantage",
+      "Franchise potential: Develop scalable business model for franchising",
+      "Legacy building: Create sustainable business for next generation"
+    ]
+  },
+
+  "systemUsageAndAnalyticsNeeds": {
+    "dailyDashboardRequirements": [
+      "Financial overview: Previous day sales across all outlets",
+      "Performance alerts: Outlets underperforming vs. targets",
+      "Operational issues: System problems, staff attendance issues",
+      "Growth metrics: Week-over-week, month-over-month comparisons"
+    ],
+    "weeklyAnalysisFocus": [
+      "Outlet rankings: Performance league tables and trend analysis",
+      "Regional comparisons: Manager effectiveness, market performance",
+      "Menu performance: Item popularity, profitability analysis",
+      "Customer insights: Loyalty program metrics, feedback trends"
+    ],
+    "monthlyStrategicReviews": [
+      "P&L analysis: Detailed financial performance by outlet and region",
+      "Market analysis: Competitor performance, industry trends",
+      "Growth planning: New location analysis, expansion pipeline",
+      "Investment decisions: Equipment upgrades, technology investments"
+    ],
+    "quarterlyBusinessPlanning": [
+      "Strategic planning: Long-term growth strategy refinement",
+      "Budget allocation: Resource distribution across outlets and regions",
+      "Performance reviews: Regional manager evaluations and goal setting",
+      "Board reporting: Investor updates and strategic recommendations"
+    ]
+  },
+
+  "technologyRequirements": {
+    "executiveDashboardFeatures": [
+      "Real-time monitoring: Live sales data across all outlets",
+      "Exception reporting: Automatic alerts for performance deviations",
+      "Comparative analytics: Outlet-to-outlet and period-to-period analysis",
+      "Drill-down capability: Ability to investigate specific issues or opportunities",
+      "Mobile accessibility: Key metrics available on smartphone for travel"
+    ],
+    "strategicPlanningTools": [
+      "Forecasting models: Predictive analytics for growth planning",
+      "Scenario planning: What-if analysis for expansion decisions",
+      "Market intelligence: Competitive benchmarking and industry trends",
+      "ROI calculators: Investment analysis for new outlets and upgrades",
+      "Custom reporting: Flexible report generation for board presentations"
+    ],
+    "delegationAndControlSystems": [
+      "Permission management: Granular control over who can access what data",
+      "Approval workflows: Electronic sign-off for significant decisions",
+      "Audit trails: Complete history of all system changes and decisions",
+      "Performance tracking: Manager and staff productivity monitoring",
+      "Escalation processes: Automatic routing of issues requiring executive attention"
+    ]
+  },
+
+  "communicationAndReportingPreferences": {
+    "internalCommunication": {
+      "format": "Executive summaries with supporting data appendices",
+      "frequency": "Daily alerts, weekly reports, monthly deep-dives",
+      "delivery": "Email summaries with dashboard links for detailed analysis",
+      "meetings": "Structured agenda with data-driven discussions"
+    },
+    "externalCommunication": {
+      "investors": "Quarterly presentations with growth metrics and strategic updates",
+      "boardMembers": "Monthly reports focusing on key performance indicators",
+      "industry": "Speaking engagements sharing insights on F&B chain management",
+      "media": "Selective interviews on business growth and industry trends"
+    }
+  },
+
+  "successMetricsAndKPIs": {
+    "financialKPIs": {
+      "groupRevenue": "RM 2.8M monthly, targeting 25% annual growth",
+      "profitMargins": "Maintain 12%+ net margin across all outlets",
+      "sameStoreSalesGrowth": "8%+ year-over-year for established outlets",
+      "newStoreROI": "18%+ return on investment for new locations"
+    },
+    "operationalKPIs": {
+      "brandCompliance": "95%+ mystery shopper scores",
+      "customerSatisfaction": "4.3+ average rating across all platforms",
+      "staffProductivity": "Sales per employee hour targets by outlet type",
+      "inventoryEfficiency": "Food cost below 32% of revenue"
+    },
+    "strategicKPIs": {
+      "marketShare": "Top 3 position in Malaysian mamak chain segment",
+      "expansionRate": "6-8 new outlets annually with profitable operations",
+      "technologyROI": "Measurable efficiency gains from system investments",
+      "leadershipPipeline": "80% of new managers promoted from within"
+    }
+  },
+
+  "bigBossValidationQuestions": [
+    "Does this provide the strategic insights I need to make informed expansion decisions?",
+    "Can I quickly identify which outlets are underperforming and why?",
+    "Will this help me maintain brand consistency across all locations?",
+    "Does the system scale efficiently as we add more outlets?",
+    "Can I delegate appropriately while maintaining oversight and control?",
+    "Will this give me competitive intelligence to stay ahead in the market?"
+  ]
+} 

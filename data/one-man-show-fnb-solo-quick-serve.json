@@ -1,0 +1,206 @@
+{
+  "id": "one-man-show-fnb-solo-quick-serve",
+  "name": "Ahmad Rahman - F&B Solo Quick-Serve Owner-Operator",
+  "userType": "one-man-show",
+  "businessProfile": "fnb-solo-savvy-quick-serve",
+  "description": "Owner-operator of a small Malaysian coffee shop, embodying the challenges and behaviors of a one-person F&B operation",
+  
+  "personalProfile": {
+    "name": "Ahmad Rahman",
+    "age": 32,
+    "business": "Ahmad's Corner - A cozy neighborhood coffee shop in Taman Petaling",
+    "role": "Owner-Operator",
+    "tenureWithPlatform": "8 months"
+  },
+
+  "businessContext": {
+    "operationDetails": {
+      "businessType": "Small Malaysian coffee shop serving local dishes, drinks, and light meals",
+      "location": "Shophouse unit with 8 tables, mix of dine-in and takeaway",
+      "operatingHours": "10:00 AM - 10:00 PM daily (closed Mondays)",
+      "staffing": "Just Ahmad (occasionally his wife helps during peak lunch/dinner rush)",
+      "monthlyRevenue": "RM 12,000-18,000",
+      "averageTransaction": "RM 8.50",
+      "dailyTransactions": "100-150 orders"
+    },
+    "storeHubSetup": {
+      "plan": "Base monthly plan",
+      "equipment": ["1 tablet POS", "1 receipt printer", "mobile payment terminal"],
+      "keyFeatures": ["Basic POS", "takeaway orders", "cash/card payments"],
+      "addOns": "None (cost-conscious)"
+    }
+  },
+
+  "dailyWorkflow": {
+    "operationalHours": "10 AM - 10 PM",
+    "schedule": {
+      "morningPrep": "10-12 PM",
+      "lunchRush": "12-2 PM", 
+      "quietPeriod": "2-5 PM",
+      "dinnerRush": "5-8 PM",
+      "windDown": "8-10 PM"
+    },
+    "afterHours": "10:30 PM - 9:30 AM",
+    "afterHoursActivities": {
+      "postClosingAdmin": "10:30 PM-12 AM",
+      "sleepPersonalTime": "12 AM-7 AM",
+      "marketPrep": "7-9:30 AM"
+    }
+  },
+
+  "technologyBehavior": {
+    "deviceUsagePatterns": {
+      "duringBusinessHours": "Tablet POS only (hands often busy/dirty)",
+      "afterHours": "90% smartphone, 10% laptop (wife's old laptop)",
+      "preferredApps": ["WhatsApp", "Facebook", "mobile banking", "StoreHub mobile"]
+    },
+    "systemInteractionStyle": {
+      "patienceLevel": "Very low for complex tasks",
+      "learningPreference": "Visual/trial-and-error over reading manuals",
+      "errorTolerance": "Extremely low - any system hiccup during peak hours is catastrophic",
+      "supportPreference": "WhatsApp chat > phone calls > email"
+    },
+    "informationConsumption": {
+      "reportViewing": "Quick glances at daily sales on phone",
+      "analysisDepth": "Wants simple numbers - 'Did I make more than yesterday?'",
+      "decisionMaking": "Gut feeling + basic sales trends",
+      "timeInvestment": "Maximum 5-10 minutes for any administrative task"
+    }
+  },
+
+  "painPointsAndFrustrations": {
+    "operationalChallenges": [
+      "System reliability: 'If POS crashes during lunch or dinner rush, I lose customers'",
+      "Speed requirements: 'Every second counts when customers are waiting for their food'",
+      "Multi-tasking: Taking orders, cooking, serving, collecting payment",
+      "Long hours: 12-hour workdays with minimal breaks",
+      "Cash flow: Daily revenue impacts ingredient purchases and rent"
+    ],
+    "technologyFrustrations": [
+      "Complex interfaces: 'Too many buttons, too many steps'",
+      "Learning curve: 'No time to learn new features during 12-hour workdays'",
+      "Connectivity issues: 'Mobile data is expensive, WiFi is unreliable'",
+      "Update disruptions: 'Don't change things when I'm busy serving customers'",
+      "Fatigue factor: 'After 12 hours of work, I just want simple, quick admin tasks'"
+    ],
+    "administrativeBurdens": [
+      "Record keeping: Required for tax but tedious",
+      "Inventory tracking: Mostly mental, sometimes forgets to restock",
+      "Performance analysis: Knows he should but doesn't know how",
+      "Compliance: GST, licensing, health department requirements"
+    ]
+  },
+
+  "goalsAndMotivations": {
+    "primaryBusinessGoals": [
+      "Survival: Consistent daily revenue to support family",
+      "Growth: Increase customer base and average transaction value",
+      "Efficiency: Serve more customers in less time",
+      "Sustainability: Build reputation for quality and reliability"
+    ],
+    "technologyGoals": [
+      "Simplicity: Make transactions faster and easier",
+      "Reliability: Never fail during critical business hours",
+      "Insights: Quick understanding of business performance",
+      "Mobility: Access information anywhere, anytime"
+    ],
+    "personalGoals": [
+      "Work-life balance: Finish business tasks quickly to spend time with family",
+      "Financial security: Steady income and savings for future",
+      "Independence: Maintain control over his business destiny",
+      "Recognition: Build a respected local business"
+    ]
+  },
+
+  "behavioralPatterns": {
+    "systemUsageTiming": {
+      "peakUsage": "10:30 PM - 12:00 AM (after closing)",
+      "quickChecks": "During 2-5 PM quiet period",
+      "emergencyAccess": "Anytime during business hours if issues arise",
+      "planningSessions": "Monday evenings (closed day) for week ahead"
+    },
+    "informationPriorities": [
+      "Daily sales: First thing checked after closing",
+      "Cash vs. digital: Understanding payment method preferences",
+      "Best-selling items: What to prepare more/less of",
+      "Customer patterns: Peak hours, popular combinations"
+    ],
+    "decisionMakingProcess": {
+      "immediate": "Can I solve this in under 5 minutes?",
+      "daily": "What do I need to buy/prepare for tomorrow?",
+      "weekly": "Which items are performing well/poorly?",
+      "monthly": "Am I making enough to sustain the business?"
+    }
+  },
+
+  "technologyAdoptionCriteria": {
+    "mustHaves": [
+      "Instant value: Immediate improvement to daily operations",
+      "Zero learning curve: Works intuitively without training",
+      "Mobile-first: Accessible on smartphone",
+      "Reliability: 99.9% uptime during business hours"
+    ],
+    "niceToHaves": [
+      "Automation: Reduces manual administrative tasks",
+      "Insights: Simple analytics about business performance",
+      "Integration: Works with existing payment methods",
+      "Scalability: Can grow with business needs"
+    ],
+    "dealBreakers": [
+      "Complexity: Requires extensive training or setup",
+      "Cost: High monthly fees or hidden charges",
+      "Disruption: Changes existing workflows significantly",
+      "Dependency: Requires constant internet or technical support"
+    ]
+  },
+
+  "communicationPreferences": {
+    "supportChannels": {
+      "whatsapp": "Preferred for quick questions and issues",
+      "phone": "Acceptable for urgent problems", 
+      "email": "Only for formal documentation",
+      "inPerson": "For major issues or training"
+    },
+    "informationFormat": [
+      "Visual: Screenshots, videos, infographics",
+      "Bite-sized: Short, actionable tips",
+      "Practical: Real-world examples and use cases",
+      "Timely: Relevant to current business needs"
+    ],
+    "timingPreferences": {
+      "bestTimes": "Weekday evenings (7-10 PM)",
+      "avoid": "Early mornings, lunch hours, weekends",
+      "emergency": "Anytime if business is affected",
+      "training": "Sunday afternoons only"
+    }
+  },
+
+  "successMetrics": {
+    "businessKPIs": {
+      "dailyRevenueTarget": "RM 500+",
+      "customerServiceTime": "Under 3 minutes per order",
+      "paymentProcessing": "30 seconds or less",
+      "dailyProfitMargin": "35%+"
+    },
+    "technologyKPIs": {
+      "systemUptime": "99.9% during business hours",
+      "transactionSpeed": "Under 30 seconds",
+      "mobileAppUsage": "Daily engagement",
+      "issueResolution": "Same day for critical problems"
+    },
+    "personalKPIs": {
+      "administrativeTime": "Under 45 minutes daily",
+      "learningTime": "Under 1 hour monthly",
+      "stressLevel": "Manageable during peak hours",
+      "familyTime": "Late evenings and Mondays protected"
+    }
+  },
+
+  "personaValidationQuestions": [
+    "Does this solution save me time or make me money?",
+    "Can I learn this in under 15 minutes?", 
+    "Will this work on my phone when I'm not at the stall?",
+    "What happens if it breaks during my morning rush?",
+    "Is this worth the monthly cost compared to my profit?"
+  ]
+} 

@@ -21,7 +21,8 @@ The AI agent only gets the context you are appending to the PRP and training dat
 2. **Architecture Planning Phase**
    - **@technical-architect-agent**: Define system architecture, technology stack, and component design
    - **@task-breakdown-agent**: Break down feature into implementable phases and tasks
-   - Plan detailed implementation approach with clear dependencies
+   - **@phase-qa-tester**: Create comprehensive test cases for each implementation phase
+   - Plan detailed implementation approach with clear dependencies and quality gates
 
 3. **Research and Validation Phase**
    - Search for similar features/patterns in the codebase
@@ -73,7 +74,8 @@ Include validation requirements for each implementation phase:
 After each implementation phase, call the following validation agents:
 
 ### Phase Validation Requirements
-- **@code-reviewer**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
+- **@phase-qa-tester**: Execute test cases for the completed phase and validate implementation quality (Target: ≥80% confidence)
+- **@code-reviewer-agent**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
 - **@functional-test-agent**: Validate feature correctness and user experience (Target: ≥80% confidence)  
 - **@integration-test-agent**: Test system compatibility and performance (Target: ≥80% confidence)
 - **@security-agent**: Check security vulnerabilities and compliance (Target: ≥80% confidence)
@@ -98,7 +100,7 @@ The PRP should define how validation will be performed using the embedded valida
 - ≥80% confidence allows automatic progression
 - <80% confidence requires manual review
 
-**Note**: The validation framework relies on the specialized validation agents (@code-reviewer, @functional-test-agent, @integration-test-agent, @security-agent) rather than external tools or commands.
+**Note**: The validation framework relies on the specialized validation agents (@phase-qa-tester, @code-reviewer-agent, @functional-test-agent, @integration-test-agent, @security-agent) rather than external tools or commands.
 
 *** CRITICAL AFTER YOU ARE DONE RESEARCHING AND EXPLORING THE CODEBASE AND COLLABORATING WITH AGENTS BEFORE YOU START WRITING THE PRP ***
 

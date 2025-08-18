@@ -1,0 +1,257 @@
+{
+  "id": "big-boss-fnb-full-service-restaurant",
+  "name": "Chef David Wong - Fine Dining Owner & Executive Chef",
+  "userType": "big-boss",
+  "businessProfile": "fnb-full-service-restaurant-operator",
+  "description": "Owner-operator of high-end restaurant, balancing culinary excellence with business acumen while maintaining operational control and strategic vision for long-term success",
+  
+  "personalProfile": {
+    "name": "Chef David Wong",
+    "age": 44,
+    "position": "Owner & Executive Chef",
+    "business": "Heritage Kitchen - High-end Malaysian fine dining restaurant",
+    "role": "Owner-Operator & Culinary Director",
+    "tenureWithPlatform": "3 years"
+  },
+
+  "businessProfile": {
+    "restaurantEmpire": {
+      "businessType": "Fine dining restaurant specializing in modern Malaysian cuisine",
+      "location": "Premium location in KLCC area, 2,800 sq ft space",
+      "seating": "65 seats across main dining room and private dining areas",
+      "hours": "12:00 PM - 2:30 PM, 6:00 PM - 11:00 PM (closed Sundays)",
+      "staff": "28 employees (8 kitchen, 12 front-of-house, 8 support)",
+      "monthlyRevenue": "RM 420,000-550,000",
+      "averageTransaction": "RM 185 per person",
+      "dailyCovers": "80-120 guests"
+    },
+    "storeHubSetup": {
+      "plan": "Large annually with comprehensive restaurant features",
+      "accessLevel": "Full administrative control with delegation",
+      "keyTools": ["Advanced analytics", "inventory management", "staff performance tracking"],
+      "addOns": "Full suite - sh-engage, sh-membership, KDS, advanced reporting"
+    }
+  },
+
+  "authorityAndDecisionMaking": {
+    "controls": [
+      "Culinary direction: Menu development, ingredient sourcing, cooking techniques",
+      "Financial decisions: Pricing strategy, cost control, investment in equipment",
+      "Staff management: Hiring, training, performance standards, compensation",
+      "Brand identity: Restaurant concept, customer experience, market positioning",
+      "Operations: Service standards, reservation policies, supplier relationships"
+    ],
+    "delegates": [
+      "Daily operations: Floor management to assistant managers",
+      "Staff scheduling: Shift planning within budget guidelines",
+      "Customer service: Issue resolution following established protocols",
+      "Inventory management: Daily ordering within approved suppliers",
+      "Administrative tasks: Bookkeeping, reporting, compliance documentation"
+    ],
+    "monitors": [
+      "Financial performance: Revenue, food costs, labor costs, profit margins",
+      "Culinary standards: Food quality, presentation, customer feedback",
+      "Service excellence: Wait times, customer satisfaction, staff performance",
+      "Market position: Competition, trends, customer preferences",
+      "Operational efficiency: Table turnover, waste reduction, cost optimization"
+    ]
+  },
+
+  "dailyWorkflowReality": {
+    "morningPlanning": {
+      "timeframe": "10:00 AM - 12:00 PM",
+      "tasks": [
+        "Review previous night's performance and customer feedback",
+        "Plan daily menu adjustments and special preparations",
+        "Meet with kitchen team on prep requirements and timing",
+        "Review reservations and coordinate with front-of-house"
+      ]
+    },
+    "lunchService": {
+      "timeframe": "12:00 PM - 3:00 PM",
+      "tasks": [
+        "Oversee kitchen operations and food quality",
+        "Monitor dining room service and customer satisfaction",
+        "Handle VIP guests and special requests personally",
+        "Coordinate between kitchen and service teams"
+      ]
+    },
+    "afternoonAnalysis": {
+      "timeframe": "3:00 PM - 5:30 PM",
+      "tasks": [
+        "Review lunch performance and profitability",
+        "Analyze food costs and inventory usage",
+        "Plan dinner service and staff assignments",
+        "Work on menu development and seasonal planning"
+      ]
+    },
+    "dinnerService": {
+      "timeframe": "6:00 PM - 11:00 PM",
+      "tasks": [
+        "Lead kitchen during peak service hours",
+        "Ensure consistent food quality and presentation",
+        "Engage with guests and gather feedback",
+        "Monitor staff performance and service standards"
+      ]
+    },
+    "eveningReview": {
+      "timeframe": "11:00 PM - 12:00 AM",
+      "tasks": [
+        "Review daily sales and performance metrics",
+        "Analyze customer feedback and service issues",
+        "Plan next day's operations and menu adjustments",
+        "Review staff performance and training needs"
+      ]
+    }
+  },
+
+  "technologyBehaviorProfile": {
+    "deviceUsagePatterns": {
+      "primary": "High-end desktop for comprehensive analytics and planning",
+      "secondary": "Tablet for kitchen management and real-time monitoring",
+      "mobile": "Smartphone for customer engagement and urgent alerts",
+      "kds": "Kitchen display system for order management and timing"
+    },
+    "systemInteractionStyle": {
+      "strategicFocus": "Long-term planning and performance optimization",
+      "qualityObsessed": "Detailed analysis of food costs, waste, and quality metrics",
+      "customerCentric": "Deep dive into guest preferences and satisfaction",
+      "innovationDriven": "Constantly seeking ways to improve operations"
+    },
+    "informationConsumptionHabits": {
+      "dailyDashboard": "Revenue, covers, average ticket, food cost percentage",
+      "weeklyAnalysis": "Menu item performance, staff productivity, customer trends",
+      "monthlyReviews": "Profitability analysis, market positioning, seasonal planning",
+      "strategicPlanning": "Annual menu development, expansion considerations"
+    }
+  },
+
+  "strategicChallengesAndPriorities": {
+    "culinaryExcellence": [
+      "Quality consistency: 'How do we maintain high standards during busy periods?'",
+      "Cost management: 'How can we control food costs without compromising quality?'",
+      "Menu innovation: 'What new dishes will excite customers while maintaining profitability?'",
+      "Supplier relationships: 'How do we secure the best ingredients at competitive prices?'"
+    ],
+    "businessGrowth": [
+      "Market position: 'How do we compete with new fine dining restaurants?'",
+      "Customer acquisition: 'How do we attract new customers while retaining regulars?'",
+      "Revenue optimization: 'How can we increase average ticket without losing customers?'",
+      "Operational efficiency: 'How do we improve service speed without sacrificing quality?'"
+    ],
+    "teamDevelopment": [
+      "Staff retention: 'How do we keep talented team members in a high-turnover industry?'",
+      "Training excellence: 'How do we maintain service standards across all staff?'",
+      "Kitchen leadership: 'How do we develop the next generation of culinary talent?'",
+      "Performance management: 'How do we motivate staff to exceed expectations?'"
+    ]
+  },
+
+  "goalsAndStrategicObjectives": {
+    "financialGoals": [
+      "Revenue growth: 15% annual increase in total revenue",
+      "Food cost control: Maintain 28-30% food cost percentage",
+      "Labor efficiency: Optimize staff productivity and reduce overtime",
+      "Profitability: Achieve 18%+ net profit margin"
+    ],
+    "operationalGoals": [
+      "Service excellence: Maintain 4.7+ star rating across all platforms",
+      "Kitchen efficiency: Reduce ticket times while maintaining quality",
+      "Customer loyalty: Build strong repeat customer base",
+      "Innovation: Introduce 4-6 new menu items per season"
+    ],
+    "strategicGoals": [
+      "Market leadership: Become top 3 fine dining restaurant in KL",
+      "Brand recognition: Establish Chef David as culinary authority",
+      "Sustainability: Implement eco-friendly practices and sourcing",
+      "Expansion: Consider second location or catering opportunities"
+    ]
+  },
+
+  "systemUsageAndAnalyticsNeeds": {
+    "dailyOperationsDashboard": [
+      "Service metrics: Covers, average ticket, table turnover",
+      "Kitchen performance: Order timing, food cost, waste tracking",
+      "Staff productivity: Sales per server, kitchen efficiency",
+      "Customer satisfaction: Reviews, feedback, complaint resolution"
+    ],
+    "weeklyPerformanceAnalysis": [
+      "Menu engineering: Item profitability, popularity, contribution margins",
+      "Cost analysis: Food costs, labor costs, overhead allocation",
+      "Customer analytics: Repeat visits, seasonal preferences, demographic trends",
+      "Competitive intelligence: Market positioning, pricing comparison"
+    ],
+    "monthlyStrategicPlanning": [
+      "Financial performance: P&L analysis, cash flow, profitability trends",
+      "Menu development: Seasonal planning, ingredient sourcing, cost modeling",
+      "Staff performance: Training needs, performance reviews, retention strategies",
+      "Market analysis: Customer acquisition, brand positioning, growth opportunities"
+    ]
+  },
+
+  "technologyRequirements": {
+    "restaurantManagementPlatform": [
+      "Comprehensive analytics: Food cost tracking, menu engineering, profitability analysis",
+      "Kitchen management: Order timing, preparation tracking, quality control",
+      "Customer intelligence: Dining preferences, visit frequency, satisfaction scores",
+      "Staff performance: Productivity metrics, training progress, performance reviews"
+    ],
+    "strategicPlanningTools": [
+      "Menu engineering: Profitability analysis, cost modeling, seasonal planning",
+      "Financial modeling: Revenue forecasting, cost optimization, investment analysis",
+      "Customer analytics: Behavioral patterns, preferences, loyalty programs",
+      "Competitive analysis: Market positioning, pricing strategies, trend identification"
+    ],
+    "operationalControlSystems": [
+      "Quality management: Food safety, presentation standards, consistency monitoring",
+      "Inventory control: Ingredient tracking, waste reduction, supplier performance",
+      "Reservation management: Table optimization, VIP customer handling",
+      "Staff management: Scheduling, training, performance tracking"
+    ]
+  },
+
+  "communicationAndLeadershipStyle": {
+    "teamLeadership": {
+      "culinaryMentorship": "Teaching cooking techniques and quality standards",
+      "serviceExcellence": "Training staff on hospitality and customer service",
+      "performanceCulture": "Setting high standards and recognizing excellence",
+      "innovationEncouragement": "Fostering creativity and continuous improvement"
+    },
+    "customerEngagement": {
+      "personalTouch": "Greeting VIP guests and gathering feedback",
+      "socialMedia": "Sharing culinary creations and restaurant experiences",
+      "communityInvolvement": "Participating in food festivals and culinary events",
+      "industryLeadership": "Mentoring young chefs and sharing expertise"
+    }
+  },
+
+  "successMetricsAndKPIs": {
+    "financialPerformance": {
+      "monthlyRevenue": "RM 420,000+ with 15% annual growth",
+      "foodCost": "28-30% of revenue consistently",
+      "laborCost": "32-35% of revenue with productivity optimization",
+      "netProfit": "18%+ margin with continuous improvement"
+    },
+    "operationalExcellence": {
+      "customerSatisfaction": "4.7+ star rating across all platforms",
+      "serviceSpeed": "Appetizers in 12 minutes, mains in 25 minutes",
+      "tableTurnover": "1.8x lunch, 1.5x dinner",
+      "staffRetention": "80%+ retention rate for key positions"
+    },
+    "marketLeadership": {
+      "brandRecognition": "Top 10 fine dining restaurant in KL",
+      "customerLoyalty": "70% repeat customer rate",
+      "industryRecognition": "Awards, reviews, media coverage",
+      "innovationLeadership": "Trend-setting menu items and techniques"
+    }
+  },
+
+  "bigBossValidationQuestions": [
+    "Does this provide comprehensive insights into food costs and menu profitability?",
+    "Can I monitor kitchen performance and maintain quality standards?",
+    "Will this help me understand customer preferences and build loyalty?",
+    "Does the system support staff performance management and development?",
+    "Can I track our competitive position and market performance?",
+    "Will this help me optimize operations while maintaining service excellence?"
+  ]
+} 

@@ -1,0 +1,270 @@
+{
+  "id": "middle-manager-fnb-multi-outlet-chain",
+  "name": "Sarah Lim - F&B Chain Operations Manager",
+  "userType": "middle-manager",
+  "businessProfile": "fnb-multi-outlet-chain-scaler",
+  "description": "Regional operations manager overseeing multiple F&B outlets, balancing operational responsibility with limited authority while serving as the link between ownership and daily execution",
+  
+  "personalProfile": {
+    "name": "Sarah Lim",
+    "age": 35,
+    "position": "Operations Manager",
+    "business": "Kopitiam Express - 8-outlet Malaysian coffee chain",
+    "role": "Regional Manager overseeing 3 outlets in Klang Valley",
+    "tenureWithPlatform": "2.5 years"
+  },
+
+  "businessContext": {
+    "operationDetails": {
+      "businessType": "Regional coffee chain specializing in traditional Malaysian kopitiam fare",
+      "responsibilityScope": "3 outlets (Subang, Petaling Jaya, Shah Alam)",
+      "totalStaffManaged": "25 employees across 3 locations",
+      "reportingStructure": "Reports to Franchise Owner/Director",
+      "workingHours": "9:00 AM - 7:00 PM (office-based with outlet visits)",
+      "monthlyRevenueOversight": "RM 150,000 across 3 outlets",
+      "averageTransaction": "RM 12.50 per outlet",
+      "performanceTargets": "Set by ownership, measured monthly"
+    },
+    "storeHubSetup": {
+      "plan": "Large annually with multiple extra_store add-ons",
+      "accessLevel": "Manager permissions across assigned outlets",
+      "keyTools": ["Multi-store reporting", "staff management", "inventory oversight"],
+      "addOns": ["sh-engage", "sh-membership", "extra_register for each location"]
+    }
+  },
+
+  "dailyWorkflow": {
+    "officeBasedOperations": "9 AM - 7 PM",
+    "schedule": {
+      "morningReports": "9:00-10:00 AM: Morning reports review - sales, staff attendance, inventory alerts",
+      "outletVisits1": "10:00 AM-12:00 PM: Outlet visits and staff check-ins (rotating schedule)",
+      "lunchMonitoring": "12:00-2:00 PM: Lunch hour monitoring via dashboard, issue resolution",
+      "adminTasks": "2:00-4:00 PM: Administrative tasks, reporting, staff scheduling",
+      "outletVisits2": "4:00-6:00 PM: Afternoon outlet visits, performance discussions",
+      "endOfDayReporting": "6:00-7:00 PM: End-of-day reporting compilation for ownership"
+    },
+    "afterHoursResponsibilities": {
+      "salesVerification": "7:00-8:00 PM: Final sales verification and daily summary preparation",
+      "weekendDuties": "Emergency response availability, monthly report preparation"
+    }
+  },
+
+  "authorityAndResponsibilityMatrix": {
+    "canDo": [
+      "Staff management: Hire/terminate hourly staff (with budget approval)",
+      "Daily operations: Adjust schedules, manage inventory orders up to RM 2,000",
+      "Customer issues: Resolve complaints up to RM 200 compensation",
+      "System settings: Modify menu items, adjust promotions within guidelines",
+      "Performance actions: Implement corrective measures for underperforming staff"
+    ],
+    "cannotDo": [
+      "Major decisions: Menu changes, pricing strategies, major equipment purchases",
+      "Financial authority: Approve expenses over RM 2,000 without ownership approval",
+      "Strategic changes: Alter brand standards, marketing campaigns, supplier agreements",
+      "System architecture: Change core POS settings, add/remove major integrations",
+      "Policy creation: Establish new operational procedures without approval"
+    ],
+    "mustDocument": [
+      "All staff actions: Disciplinary measures, performance reviews, schedule changes",
+      "Financial decisions: Every expense, even within authority limits",
+      "Customer complaints: Resolution steps, compensation given, follow-up actions",
+      "Operational issues: System problems, equipment failures, supply shortages",
+      "Performance variances: Sales below/above targets, unusual patterns"
+    ]
+  },
+
+  "technologyBehavior": {
+    "deviceUsagePatterns": {
+      "primaryDevice": "Company laptop for detailed reporting and analysis",
+      "secondaryDevice": "Personal smartphone for real-time alerts and quick checks",
+      "outletVisits": "Tablet for on-site reviews and staff interactions",
+      "preferredInterface": "Desktop dashboard for comprehensive oversight"
+    },
+    "systemInteractionStyle": {
+      "documentationFirst": "Every action must be recorded and traceable",
+      "permissionVerification": "Checks authority levels before making changes",
+      "reportGeneration": "Extensive use of reporting features for accountability",
+      "auditTrailReview": "Regularly reviews system logs for staff compliance",
+      "escalationProtocols": "Clear pathways for issues beyond authority"
+    },
+    "informationConsumptionHabits": {
+      "morningRitual": "Daily dashboard review for all 3 outlets",
+      "performanceTracking": "Hourly sales monitoring during peak periods",
+      "exceptionManagement": "Focus on alerts, variances, and outliers",
+      "trendAnalysis": "Weekly/monthly pattern identification for ownership reports",
+      "comparativeAnalysis": "Outlet-to-outlet performance benchmarking"
+    }
+  },
+
+  "painPointsAndFrustrations": {
+    "authorityVsResponsibilityGap": [
+      "Accountability without control: 'I'm responsible for sales but can't change pricing'",
+      "Staff management limitations: 'Can't adjust wages but expected to motivate team'",
+      "System restrictions: 'Need owner approval for settings I should control'",
+      "Budget constraints: 'Equipment breaks but repair budget requires approval'"
+    ],
+    "documentationBurden": [
+      "Excessive reporting: 'Spend 2 hours daily on reports for 15-minute owner reviews'",
+      "Duplicate systems: 'Enter same data in StoreHub and company spreadsheets'",
+      "Approval delays: 'Staff scheduling changes need owner sign-off'",
+      "Evidence requirements: 'Must screenshot everything for dispute resolution'"
+    ],
+    "multiLocationComplexity": [
+      "Context switching: 'Constantly jumping between outlet views in system'",
+      "Inconsistent performance: 'Each outlet has different challenges and capabilities'",
+      "Communication gaps: 'Owner doesn't understand day-to-day operational realities'",
+      "Staff coordination: 'Managing 25 people across 3 locations remotely'"
+    ],
+    "pressureManagement": [
+      "Upward pressure: 'Owner expects results but questions every decision'",
+      "Downward pressure: 'Staff look to me for answers I don't have authority to give'",
+      "Customer expectations: 'Customers assume I can resolve any issue immediately'",
+      "Performance anxiety: 'My evaluation depends on factors outside my control'"
+    ]
+  },
+
+  "goalsAndMotivations": {
+    "professionalGoals": [
+      "Career advancement: Demonstrate management capability for promotion opportunities",
+      "Operational excellence: Maintain consistent performance across all assigned outlets",
+      "Team development: Build strong teams that reflect well on management skills",
+      "Problem prevention: Identify and address issues before they escalate to ownership"
+    ],
+    "dailyObjectives": [
+      "Performance monitoring: Ensure all outlets meet daily/weekly targets",
+      "Issue resolution: Handle problems quickly and document thoroughly",
+      "Staff support: Provide guidance while maintaining authority structure",
+      "Data integrity: Maintain accurate records for accountability and analysis"
+    ],
+    "longTermAspirations": [
+      "Expanded authority: Earn trust for greater decision-making responsibility",
+      "Regional growth: Manage more outlets or move to area manager role",
+      "System mastery: Become the go-to person for StoreHub optimization",
+      "Leadership recognition: Be seen as indispensable to company operations"
+    ]
+  },
+
+  "systemUsagePatterns": {
+    "dailySystemRituals": {
+      "morning": "8:45 AM: Login and review overnight sales and alerts",
+      "staffCheck": "9:15 AM: Check staff attendance and punctuality reports",
+      "lunchMonitor": "12:30 PM: Monitor lunch hour performance across outlets",
+      "inventoryReview": "3:00 PM: Review inventory levels and place orders",
+      "endOfDay": "6:30 PM: Generate end-of-day summaries for ownership"
+    },
+    "weeklySystemActivities": {
+      "monday": "Staff scheduling and payroll preparation",
+      "wednesday": "Mid-week performance review and adjustments",
+      "friday": "Weekly reporting compilation and variance analysis",
+      "sunday": "Next week preparation and strategic planning"
+    },
+    "monthlySystemFocus": {
+      "week1": "Monthly closing and comprehensive performance analysis",
+      "week2": "Staff performance reviews and development planning",
+      "week3": "Inventory optimization and supplier performance review",
+      "week4": "Preparation for next month and budget planning"
+    }
+  },
+
+  "communicationAndReportingNeeds": {
+    "upwardCommunication": {
+      "format": "Professional reports with executive summaries",
+      "frequency": "Daily summaries, weekly deep-dives, monthly comprehensive reviews",
+      "content": "Performance metrics, issue resolution, recommendations with data support",
+      "timing": "Consistent schedule to build trust and reliability"
+    },
+    "downwardCommunication": {
+      "format": "Clear directives with system-backed authority verification",
+      "frequency": "Daily check-ins, weekly team meetings, monthly reviews",
+      "content": "Performance feedback, policy clarifications, operational updates",
+      "tone": "Supportive but authoritative, with documented backing"
+    },
+    "lateralCommunication": {
+      "format": "Collaborative problem-solving and best practice sharing",
+      "frequency": "As needed for operational issues and knowledge transfer",
+      "content": "Operational challenges, successful strategies, resource sharing",
+      "goal": "Mutual support while maintaining competitive performance"
+    }
+  },
+
+  "technologyRequirements": {
+    "essentialFeatures": [
+      "Multi-store dashboard: Single view of all assigned outlets with drill-down capability",
+      "Permission management: Clear authority levels that match actual responsibility",
+      "Audit trails: Comprehensive logging of all actions for accountability",
+      "Automated reporting: Scheduled reports that reduce manual compilation time",
+      "Alert system: Real-time notifications for issues requiring immediate attention"
+    ],
+    "productivityTools": [
+      "Delegation framework: Assign tasks to staff with tracking and approval workflows",
+      "Exception dashboard: Focus on outliers and issues rather than routine operations",
+      "Comparison tools: Easy outlet-to-outlet performance benchmarking",
+      "Mobile notifications: Critical alerts accessible during outlet visits",
+      "Document storage: Centralized repository for policies and procedures"
+    ],
+    "complianceAndDocumentation": [
+      "Action logging: Every system change tracked with user identification",
+      "Approval workflows: Built-in escalation for decisions beyond authority",
+      "Report templates: Standardized formats for consistent communication",
+      "Data export: Easy extraction for external reporting requirements",
+      "Version control: Track changes to settings and policies over time"
+    ]
+  },
+
+  "successMetrics": {
+    "operationalKPIs": {
+      "outletPerformance": "All 3 outlets meeting monthly targets (95% achievement rate)",
+      "staffTurnover": "Below 20% annually across all locations",
+      "customerSatisfaction": "Maintain 4.2+ stars across all outlets",
+      "inventoryEfficiency": "Waste below 5%, stockouts below 2%",
+      "costControl": "Operating expenses within 2% of budget"
+    },
+    "managementKPIs": {
+      "issueResolution": "90% of problems resolved within authority, 10% escalated",
+      "reportingAccuracy": "Zero discrepancies in monthly reports",
+      "staffDevelopment": "80% of team members show performance improvement",
+      "systemUtilization": "Full adoption of available StoreHub features",
+      "ownerSatisfaction": "Monthly review ratings above 85%"
+    },
+    "personalKPIs": {
+      "timeManagement": "Administrative tasks completed within allocated hours",
+      "authorityUtilization": "Full use of available decision-making power",
+      "documentationQuality": "All actions properly recorded for audit purposes",
+      "professionalGrowth": "Quarterly skill development and training completion",
+      "workLifeBalance": "Maintain emergency responses below 5 per month"
+    }
+  },
+
+  "decisionMakingFramework": {
+    "immediateDecisions": [
+      "Staff scheduling adjustments",
+      "Minor inventory restocking", 
+      "Customer complaint resolution under RM 200",
+      "Daily operational workflow modifications",
+      "System setting adjustments within established parameters"
+    ],
+    "approvalRequiredDecisions": [
+      "Equipment repairs over RM 2,000",
+      "Staff salary adjustments or promotions",
+      "Menu modifications or pricing changes",
+      "Marketing campaign participation",
+      "Supplier changes or new vendor additions"
+    ],
+    "documentationRequiredForAllDecisions": [
+      "Rationale for the decision",
+      "Financial impact and budget implications",
+      "Staff and customer impact assessment",
+      "Expected outcomes and success metrics",
+      "Timeline for implementation and review"
+    ]
+  },
+
+  "personaValidationQuestions": [
+    "Does this solution help me document decisions and actions for accountability?",
+    "Can I delegate tasks while maintaining oversight and control?",
+    "Will this provide the performance data I need to justify requests to ownership?",
+    "Does the permission structure match my actual authority level?",
+    "Can I quickly identify and address issues before they escalate?",
+    "Will this help me demonstrate my management effectiveness to superiors?"
+  ]
+} 

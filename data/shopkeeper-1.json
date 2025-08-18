@@ -1,0 +1,14 @@
+{
+  "id": "shopkeeper-1",
+  "name": "Retail Store Owner",
+  "user_type": "shopkeeper",
+  "business_profile": {
+    "role": "Store Owner",
+    "company_size": "Small Business",
+    "tech_comfort": "low",
+    "decision_style": "cautious",
+    "patience": "high"
+  },
+  "error_tolerance": 5,
+  "reading_behavior": "read_carefully"
+}

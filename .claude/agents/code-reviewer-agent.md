@@ -1,5 +1,5 @@
 ---
-name: code-reviewer
+name: code-reviewer-agent
 description: Use this agent when you have written, modified, or committed code and need a comprehensive quality review. Examples: <example>Context: User just implemented a new authentication function. user: 'I just wrote a login function that handles user authentication' assistant: 'Let me use the code-reviewer agent to analyze your authentication implementation for security vulnerabilities and best practices' <commentary>Since code was just written, use the code-reviewer agent to ensure security and quality standards are met.</commentary></example> <example>Context: User modified an existing API endpoint. user: 'I updated the user registration endpoint to include email validation' assistant: 'I'll use the code-reviewer agent to review your changes and ensure the email validation is properly implemented' <commentary>Code modifications require review to catch potential issues and ensure quality standards.</commentary></example>
 model: sonnet
 ---

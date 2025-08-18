@@ -229,7 +229,7 @@ This PRP includes embedded validation agents that will execute throughout implem
 - Network security for internal tool usage
 
 #### Code Review Validation
-**Agent**: `@code-reviewer`
+**Agent**: `@code-reviewer-agent`
 **Trigger**: Continuous throughout all phases
 **Target**: ≥80% confidence threshold
 **Validation Scope**:

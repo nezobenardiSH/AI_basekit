@@ -1,0 +1,211 @@
+{
+  "id": "waiter-shopkeeper-fnb-full-service-restaurant",
+  "name": "Aminah binti Rashid - Full-Service Restaurant Server",
+  "userType": "waiter-shopkeeper",
+  "businessProfile": "fnb-full-service-restaurant-operator",
+  "description": "Front-of-house service staff in full-service Japanese fusion restaurant, requiring simple, efficient tools that support excellent customer service while minimizing complexity and stress during busy periods",
+  
+  "personalProfile": {
+    "name": "Aminah binti Rashid",
+    "age": 22,
+    "position": "Server",
+    "business": "Sakura Garden - Japanese fusion restaurant",
+    "role": "Front-of-house service staff",
+    "tenureWithPlatform": "4 months"
+  },
+
+  "backgroundProfile": {
+    "personalDetails": {
+      "education": "SPM graduate, part-time university student (Business Studies)",
+      "workExperience": "6 months in hospitality (previous job at a cafe)",
+      "languages": "Fluent in Malay and English, basic Japanese phrases",
+      "schedule": "Part-time, 25-30 hours per week (evenings and weekends)",
+      "careerGoals": "Saving for university fees, gaining customer service experience"
+    },
+    "workEnvironment": {
+      "restaurantType": "45-seat Japanese fusion restaurant with upscale casual dining",
+      "serviceStyle": "Full table service with detailed menu explanations",
+      "shiftPattern": "4 days/week, primarily dinner service (5:30 PM - 11:00 PM)",
+      "tableAssignment": "4-5 tables per shift (16-20 guests)",
+      "team": "Works with 5 other servers and 2 assistant managers"
+    }
+  },
+
+  "dailyWorkflowReality": {
+    "preService": {
+      "timeframe": "5:00 PM - 5:30 PM",
+      "tasks": [
+        "Clock in and review table assignments",
+        "Check reservation system for special requests or VIP guests",
+        "Review daily specials and ingredient information",
+        "Set up assigned tables and check service equipment"
+      ]
+    },
+    "serviceHours": {
+      "timeframe": "5:30 PM - 10:30 PM",
+      "tasks": [
+        "Greet guests and provide menu recommendations",
+        "Take orders using tablet POS system",
+        "Coordinate with kitchen for special requests",
+        "Serve food and beverages with proper presentation",
+        "Process payments and handle table turnover"
+      ]
+    },
+    "postService": {
+      "timeframe": "10:30 PM - 11:00 PM",
+      "tasks": [
+        "Complete closing duties and clean assigned section",
+        "Count tips and complete shift report",
+        "Clock out and review next day's schedule"
+      ]
+    }
+  },
+
+  "technologyBehaviorProfile": {
+    "deviceUsagePatterns": {
+      "primary": "Handheld tablet POS for order taking and table management",
+      "secondary": "Occasionally uses register for payment processing",
+      "comfortLevel": "Moderate - comfortable with touch screens and basic functions",
+      "learningStyle": "Learns best through demonstration and hands-on practice"
+    },
+    "systemInteractionStyle": {
+      "taskFocused": "Uses system primarily for order entry and payment processing",
+      "speedOriented": "Needs quick, efficient processes during busy periods",
+      "errorSensitive": "Worried about making mistakes that affect customer experience",
+      "helpSeeking": "Asks managers for help when encountering unfamiliar situations"
+    },
+    "informationNeeds": [
+      "Menu knowledge: Ingredient information, allergen alerts, preparation methods",
+      "Order status: Kitchen timing, special requests, table coordination",
+      "Payment processing: Split bills, different payment methods, tip calculations",
+      "Table management: Reservation details, special occasions, guest preferences"
+    ]
+  },
+
+  "painPointsAndChallenges": {
+    "systemComplexity": [
+      "Too many screens: 'Sometimes I get lost navigating through different menu sections'",
+      "Modification confusion: 'Hard to find the right buttons for special requests'",
+      "Payment complications: 'Split bills and different payment methods slow me down'",
+      "System freezes: 'When the tablet freezes during busy dinner rush, I panic'"
+    ],
+    "customerServicePressure": [
+      "Speed expectations: 'Customers get impatient when I take too long entering orders'",
+      "Menu questions: 'Need quick access to ingredient and allergen information'",
+      "Special requests: 'Don't always know how to handle complex modifications'",
+      "Language barriers: 'Some customers prefer to order in languages I don't speak well'"
+    ],
+    "workEnvironmentStress": [
+      "Peak hour pressure: 'Friday and Saturday nights are overwhelming'",
+      "Kitchen coordination: 'Sometimes orders get mixed up between kitchen and service'",
+      "Manager expectations: 'Feel watched and judged when learning new procedures'",
+      "Tip anxiety: 'Worried that system mistakes will affect my tip earnings'"
+    ]
+  },
+
+  "goalsAndMotivations": {
+    "primaryGoals": [
+      "Customer satisfaction: Provide friendly, efficient service that earns good tips",
+      "Accuracy: Avoid order mistakes that create problems for customers and kitchen",
+      "Efficiency: Serve tables quickly to maximize turnover and earnings",
+      "Learning: Gain valuable customer service skills for future career"
+    ],
+    "dailyObjectives": [
+      "Order accuracy: Get orders right the first time, every time",
+      "Table management: Keep guests happy and tables turning efficiently",
+      "Tip optimization: Provide service that encourages good tips",
+      "Shift completion: Finish all assigned duties without manager reminders"
+    ]
+  },
+
+  "systemUsagePatterns": {
+    "orderTakingProcess": [
+      "Greeting: Quick review of table status and guest count",
+      "Menu navigation: Find items quickly while maintaining conversation",
+      "Modifications: Handle special requests and dietary restrictions",
+      "Confirmation: Double-check order details before sending to kitchen",
+      "Payment: Process bills efficiently with various payment methods"
+    ],
+    "tableManagement": [
+      "Status updates: Check order progress and timing",
+      "Special requests: Handle additional items and modifications",
+      "Problem resolution: Alert managers when issues arise",
+      "Table turnover: Coordinate cleaning and resetting"
+    ]
+  },
+
+  "technologyRequirements": {
+    "essentialFeatures": [
+      "Intuitive interface: Simple, visual layout that's easy to navigate",
+      "Quick access: Frequently used functions readily available",
+      "Error prevention: Built-in safeguards against common mistakes",
+      "Help features: Easy access to help or manager assistance"
+    ],
+    "niceToHaveFeatures": [
+      "Voice recognition: For hands-free order entry",
+      "Multilingual support: Menu items in multiple languages",
+      "Customer preferences: Memory of regular guest preferences",
+      "Tip tracking: Personal tip calculation and tracking"
+    ]
+  },
+
+  "communicationPreferences": {
+    "trainingAndSupport": {
+      "visualLearning": "Prefer demonstrations over written instructions",
+      "peerSupport": "Learn well from experienced colleagues",
+      "managerGuidance": "Need clear, patient instruction on new procedures",
+      "practiceTime": "Benefit from hands-on practice during quiet periods"
+    },
+    "feedbackStyle": {
+      "immediate": "Need quick feedback on performance and mistakes",
+      "constructive": "Respond well to helpful suggestions and tips",
+      "encouraging": "Motivated by recognition and positive reinforcement",
+      "specific": "Benefit from detailed guidance on improvement areas"
+    }
+  },
+
+  "successMetrics": {
+    "performanceIndicators": {
+      "orderAccuracy": "98%+ accuracy rate on order entry",
+      "serviceSpeed": "Average 3-4 minutes per table for order taking",
+      "customerSatisfaction": "Positive feedback and repeat customers",
+      "tipEarnings": "Consistent tip percentage indicating good service"
+    },
+    "learningObjectives": {
+      "menuKnowledge": "Ability to answer 90% of customer questions",
+      "systemProficiency": "Confident use of all basic POS functions",
+      "problemResolution": "Know when and how to escalate issues",
+      "teamIntegration": "Work effectively with kitchen and service staff"
+    }
+  },
+
+  "commonScenariosAndSystemNeeds": {
+    "busyDinnerRush": [
+      "Quick order entry: Fast navigation through menu sections",
+      "Modification handling: Easy special request processing",
+      "Kitchen coordination: Clear communication of timing and priorities",
+      "Payment speed: Efficient processing of various payment methods"
+    ],
+    "specialDietaryNeeds": [
+      "Allergen information: Quick access to ingredient and allergen data",
+      "Modification options: Easy customization of menu items",
+      "Kitchen communication: Clear transmission of special requirements",
+      "Follow-up: Ability to check on special order status"
+    ],
+    "tableManagement": [
+      "Status tracking: Real-time updates on order progress",
+      "Guest preferences: Memory of regular customer preferences",
+      "Coordination: Smooth handoff between service staff",
+      "Problem resolution: Clear escalation procedures for issues"
+    ]
+  },
+
+  "restaurantServiceValidationQuestions": [
+    "Can I take orders quickly and accurately during busy periods?",
+    "Is it easy to handle special requests and dietary restrictions?",
+    "Can I process payments efficiently without slowing down service?",
+    "Will I know how to get help when I encounter problems?",
+    "Does the system help me provide better customer service?",
+    "Can I track my performance and improve my skills?"
+  ]
+} 

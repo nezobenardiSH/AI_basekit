@@ -1,0 +1,250 @@
+{
+  "id": "waiter-shopkeeper-fnb-multi-outlet-chain",
+  "name": "Kevin Lim - Multi-Outlet Chain Crew Member",
+  "userType": "waiter-shopkeeper",
+  "businessProfile": "fnb-multi-outlet-chain-scaler",
+  "description": "Front-of-house service staff in large 28-outlet F&B chain, requiring standardized, reliable tools that support consistent service delivery across all locations while maintaining chain brand standards and operational efficiency",
+  
+  "personalProfile": {
+    "name": "Kevin Lim",
+    "age": 24,
+    "position": "Crew Member",
+    "business": "Mamak King - 28-outlet Malaysian casual dining chain",
+    "role": "Front-of-house service staff",
+    "tenureWithPlatform": "2 months"
+  },
+
+  "backgroundProfile": {
+    "personalDetails": {
+      "education": "SPM graduate, considering further studies",
+      "workExperience": "8 months in F&B (worked at 2 different chain outlets)",
+      "languages": "Fluent in English, Malay, and Cantonese",
+      "schedule": "Full-time, 44 hours per week across various shifts",
+      "careerGoals": "Gain experience, possible promotion to supervisor role"
+    },
+    "workEnvironment": {
+      "chainType": "Standardized mamak chain with consistent menu and procedures",
+      "serviceStyle": "Quick casual dining with table service and takeaway",
+      "shiftPattern": "Rotating shifts including peak hours (6:00 AM - 12:00 AM coverage)",
+      "location": "Mid Valley outlet (one of the busier locations in the chain)",
+      "team": "Works with 15 other crew members and 3 supervisors"
+    }
+  },
+
+  "chainOperationReality": {
+    "standardizationRequirements": {
+      "uniformProcedures": "Same service standards across all 28 outlets",
+      "standardizedMenu": "Identical offerings, pricing, and preparation methods",
+      "brandCompliance": "Consistent customer experience regardless of location",
+      "systemUniformity": "Same POS system, procedures, and reporting across chain"
+    },
+    "multiLocationDynamics": {
+      "staffTransfer": "May work at different outlets when needed",
+      "performanceComparison": "Individual and outlet performance tracked against chain average",
+      "bestPracticeSharing": "Successful procedures rolled out across all locations",
+      "centralizedTraining": "Standardized training programs and materials"
+    }
+  },
+
+  "dailyWorkflowReality": {
+    "preServiceSetup": {
+      "timeframe": "5:30 AM - 6:00 AM",
+      "tasks": [
+        "Clock in using standardized time tracking system",
+        "Review shift assignments and table sections",
+        "Check daily specials and promotional items",
+        "Complete opening checklist following chain standards"
+      ]
+    },
+    "serviceHours": {
+      "timeframe": "6:00 AM - 11:00 PM",
+      "tasks": [
+        "Greet customers following brand service standards",
+        "Take orders using standardized POS system",
+        "Process payments according to chain procedures",
+        "Handle customer complaints following escalation protocols",
+        "Maintain cleanliness and presentation standards"
+      ]
+    },
+    "peakHourManagement": {
+      "timeframe": "12:00 PM - 2:00 PM, 7:00 PM - 9:00 PM",
+      "tasks": [
+        "Work efficiently during high-volume periods",
+        "Coordinate with kitchen using standardized communication",
+        "Manage queue and waiting times",
+        "Ensure service speed meets chain targets"
+      ]
+    },
+    "closingDuties": {
+      "timeframe": "11:00 PM - 12:00 AM",
+      "tasks": [
+        "Complete standardized closing procedures",
+        "Clean assigned areas according to chain standards",
+        "Cash reconciliation and tip reporting",
+        "Prepare for next shift handover"
+      ]
+    }
+  },
+
+  "technologyBehaviorProfile": {
+    "deviceUsagePatterns": {
+      "primary": "Handheld POS device for order taking and payment",
+      "secondary": "Fixed terminal for complex orders and reporting",
+      "backup": "Paper systems when technology fails",
+      "comfortLevel": "Basic - comfortable with routine functions, uncertain with exceptions"
+    },
+    "systemInteractionStyle": {
+      "procedureFollowing": "Relies on standardized steps and protocols",
+      "helpSeeking": "Quickly asks supervisors when encountering unfamiliar situations",
+      "efficiencyFocused": "Prioritizes speed during busy periods",
+      "complianceOriented": "Follows chain procedures even when they seem inefficient"
+    },
+    "informationNeeds": [
+      "Menu knowledge: Prices, ingredients, preparation times for standard items",
+      "Promotional information: Current offers, combo deals, loyalty program details",
+      "System status: Order progress, kitchen timing, payment processing",
+      "Chain updates: New procedures, menu changes, policy updates"
+    ]
+  },
+
+  "painPointsAndChallenges": {
+    "chainSpecificIssues": [
+      "Rigid procedures: 'Can't adapt service to unique customer needs outside standard protocols'",
+      "System dependence: 'When POS system fails, entire service stops'",
+      "Performance pressure: 'Constantly compared to other outlets and crew members'",
+      "Limited authority: 'Need supervisor approval for almost everything'"
+    ],
+    "multiLocationComplexity": [
+      "Outlet differences: 'Each location has slightly different customer expectations'",
+      "Staff rotation: 'Sometimes work at unfamiliar outlets with different team dynamics'",
+      "Inconsistent training: 'New procedures not always communicated clearly to all locations'",
+      "Technology variations: 'Some outlets have newer equipment than others'"
+    ],
+    "customerServiceChallenges": [
+      "Volume pressure: 'High customer volume requires very fast service'",
+      "Standardization limits: 'Can't customize service for regular customers'",
+      "Language barriers: 'Serve diverse customer base with varying language preferences'",
+      "Complaint handling: 'Must follow chain procedures even when customer wants different solution'"
+    ]
+  },
+
+  "goalsAndMotivations": {
+    "primaryGoals": [
+      "Performance standards: Meet chain targets for service speed and accuracy",
+      "Job security: Maintain employment and avoid performance warnings",
+      "Skill development: Learn procedures that could lead to promotion",
+      "Team integration: Work well with crew members and supervisors"
+    ],
+    "dailyObjectives": [
+      "Service speed: Meet chain standards for order processing and service time",
+      "Accuracy: Avoid mistakes that create customer complaints or waste",
+      "Compliance: Follow all chain procedures and brand standards",
+      "Team support: Help colleagues during busy periods"
+    ]
+  },
+
+  "systemUsagePatterns": {
+    "orderProcessing": [
+      "Standard flow: Follow identical procedures for all orders",
+      "Menu navigation: Use predefined paths through POS system",
+      "Modification handling: Apply only approved customizations",
+      "Payment processing: Use chain-approved payment methods and procedures"
+    ],
+    "chainCompliance": [
+      "Reporting: Complete standardized daily reports and metrics",
+      "Inventory: Follow chain procedures for stock management",
+      "Customer data: Collect information according to chain requirements",
+      "Performance tracking: Monitor individual metrics against chain standards"
+    ]
+  },
+
+  "technologyRequirements": {
+    "essentialFeatures": [
+      "Standardized interface: Identical system across all outlets",
+      "Simple navigation: Clear, consistent menu structure",
+      "Error prevention: Built-in safeguards against common mistakes",
+      "Supervisor access: Quick escalation to management when needed"
+    ],
+    "chainSpecificNeeds": [
+      "Procedure guidance: Built-in prompts for chain standards",
+      "Performance tracking: Individual and outlet performance metrics",
+      "Update distribution: Automatic rollout of new procedures and menu changes",
+      "Backup systems: Reliable fallback when primary system fails"
+    ]
+  },
+
+  "communicationPreferences": {
+    "trainingAndSupport": {
+      "standardizedTraining": "Consistent procedures across all outlets",
+      "visualInstructions": "Clear, step-by-step guidance for all procedures",
+      "peerLearning": "Learn from experienced crew members",
+      "supervisorGuidance": "Quick access to management for problem resolution"
+    },
+    "chainCommunication": {
+      "policyUpdates": "Clear notification of changes to procedures",
+      "performanceFeedback": "Regular updates on individual and outlet performance",
+      "bestPractices": "Sharing successful approaches across chain",
+      "recognitionPrograms": "Acknowledgment of good performance"
+    }
+  },
+
+  "successMetrics": {
+    "performanceIndicators": {
+      "serviceSpeed": "Average order processing time under 3 minutes",
+      "accuracyRate": "98%+ order accuracy across all transactions",
+      "customerSatisfaction": "Chain-wide customer service scores",
+      "compliance": "100% adherence to chain procedures and standards"
+    },
+    "chainSpecificKPIs": {
+      "outletPerformance": "Individual contribution to outlet targets",
+      "crossLocationAdaptability": "Performance when working at different outlets",
+      "procedureCompliance": "Adherence to standardized processes",
+      "teamCollaboration": "Effective cooperation with colleagues"
+    }
+  },
+
+  "commonChainScenarios": {
+    "peakHourRush": [
+      "Standardized efficiency: Follow proven procedures for high-volume service",
+      "Queue management: Use chain-approved methods for managing waiting customers",
+      "Team coordination: Work with crew members using standardized communication",
+      "Quality control: Maintain chain standards even during busy periods"
+    ],
+    "crossLocationWork": [
+      "System familiarity: Use identical POS systems at any outlet",
+      "Procedure consistency: Apply same service standards regardless of location",
+      "Team integration: Work effectively with unfamiliar colleagues",
+      "Local adaptation: Understand minor location-specific differences"
+    ],
+    "customerServiceStandards": [
+      "Brand compliance: Deliver consistent experience across all outlets",
+      "Complaint resolution: Follow chain procedures for handling issues",
+      "Upselling: Use standardized approaches for promoting items",
+      "Loyalty program: Consistently apply chain-wide customer programs"
+    ]
+  },
+
+  "chainSpecificChallenges": {
+    "standardizationVsFlexibility": [
+      "Rigid procedures: Limited ability to adapt service to unique situations",
+      "Customer expectations: Some customers expect personalized service",
+      "Local preferences: Chain standards may not suit all locations",
+      "Innovation limits: Can't try new approaches without chain approval"
+    ],
+    "performancePressure": [
+      "Constant monitoring: Individual performance tracked and compared",
+      "Outlet competition: Pressure to outperform other locations",
+      "Efficiency demands: Must meet speed targets without sacrificing quality",
+      "Job security: Poor performance can lead to termination"
+    ]
+  },
+
+  "chainServiceValidationQuestions": [
+    "Can I follow standardized procedures efficiently across all outlets?",
+    "Is the system identical and reliable at every location I might work?",
+    "Can I quickly get supervisor help when I encounter unusual situations?",
+    "Does the system help me meet chain performance standards?",
+    "Will I receive consistent training and updates across all locations?",
+    "Can I track my performance against chain standards?"
+  ]
+} 

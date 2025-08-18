@@ -55,10 +55,15 @@ After completing each sequential task:
 - Include only essential integration points and patterns
 - Remove implementation details and verbose explanations
 
-5. **Validate**
-   - Run each validation command
-   - Fix any failures
-   - Re-run until all pass
+5. **Phase-by-Phase Validation**
+   After completing each implementation phase, execute validation agents:
+   - **@phase-qa-tester**: Execute predefined test cases for the completed phase
+   - **@code-reviewer-agent**: Review code quality and best practices  
+   - **@functional-test-agent**: Validate feature correctness and user experience
+   - **@integration-test-agent**: Test system compatibility and performance
+   - **@security-agent**: Check security vulnerabilities and compliance
+   - Fix any issues with confidence < 80%
+   - Re-run validation until all agents report ≥ 80% confidence
 
 6. **Complete**
    - Ensure all checklist items done
