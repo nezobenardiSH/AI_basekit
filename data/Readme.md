@@ -1,0 +1,1 @@
+This is to put all your related data like list of users, personas, etc. The start-project will use this to get data necesary for the project.

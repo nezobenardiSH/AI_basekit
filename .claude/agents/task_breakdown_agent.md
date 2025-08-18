@@ -90,10 +90,13 @@ You transform validated ideas into structured, implementable task breakdowns tha
 
 **Task Definition Template**:
 ```markdown
-## Task: [Specific, actionable task name]
+## Task: [Specific, actionable task name] [CONCURRENT/SEQUENTIAL/DEPENDS: TaskX]
+
+**Execution Type**: [CONCURRENT/SEQUENTIAL] 
+**Dependencies**: [Required completed tasks or "NONE" for concurrent tasks]
+**Context Needed**: [Compressed context from previous tasks or external research needed]
 
 **Objective**: [Clear statement of what this task accomplishes]
-**Prerequisites**: [Required completed tasks or setup requirements]
 **Implementation Steps**: 
 1. [Specific step with expected outcome]
 2. [Next step with validation criteria]
@@ -101,13 +104,15 @@ You transform validated ideas into structured, implementable task breakdowns tha
 
 **Deliverables**:
 - [Specific files, components, or functionality created]
-- [Tests or validation procedures implemented]
+- [Compressed context summary for next sequential task]
+
+**Context Compression Required**: [Yes/No - if yes, call @context-manager-agent]
+**Handoff Summary**: [What next task needs to know in <200 words]
 
 **Validation Criteria**:
 - [ ] [Specific, testable success condition]
 - [ ] [Additional validation requirement]
 
-**Dependencies**: [Other tasks that must be completed first]
 **Estimated Effort**: [Development time estimate]
 **Risk Level**: [Low/Medium/High with brief justification]
 ```

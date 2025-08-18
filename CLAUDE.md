@@ -4,148 +4,90 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-AI_basekit is an AI agent orchestration framework for developing AI-powered applications through a structured 4-stage workflow. The framework uses specialized agents to validate ideas, create comprehensive PRPs (Product Requirements Prompts), validate implementation plans, and execute development with continuous validation.
+AI_basekit is an AI agent orchestration framework for developing AI-powered applications through a structured 4-stage workflow. The framework validates ideas, creates comprehensive PRPs (Product Requirements Prompts), validates implementation plans, and executes development with continuous validation.
 
-## Key Commands
+## Core Workflow Commands
 
-### Project Development Workflow
+### Main Commands
+- **`/start-project [optional: idea]`** - Orchestrate complete 4-stage development workflow
+- **`/validate-idea`** - Stage 1: Multi-agent idea validation (3-round discussion)
+- **`/generate-prp <validated-idea-file>`** - Stage 2: Create comprehensive PRP from validated idea
+- **`/validate-prp <prp-file>`** - Stage 3: Quality assessment with scoring (target: >8/10)
+- **`/execute-prp <prp-file>`** - Stage 4: Implementation with embedded validation
 
-1. **`/start-project [optional: initial-idea-description]`** - Complete AI project development workflow from idea validation through implementation
-   - Stage 1: Concept Validation with agent debate
-   - Stage 2: Requirements Engineering (PRP creation) 
-   - Stage 3: PRP Validation with quality scoring
-   - Stage 4: PRP Execution with confidence-based validation
+## Agent Architecture
 
-2. **`/generate-prp outputs/ideas/[project-name]-validated-[date].md`** - Generate comprehensive PRP from validated idea
-   - Reads validated idea from Stage 1
-   - Creates detailed implementation blueprint
-   - Embeds validation agents with confidence scoring
+### Available Agents (/.claude/agents/)
 
-3. **`/validate-prp outputs/prps/[project-name]-[date].md`** - Validate PRP quality before implementation
-   - Orchestrates 4 validation agents
-   - Provides quality score (1-10)
-   - Generates validation report with recommendations
+**Validation & Review**
+- `@business-validator` - Market opportunity and monetization strategy assessment
+- `@code-reviewer` - Code quality, security, and maintainability review
+- `@risk-agent` - Risk identification and mitigation planning
+- `@security-agent` - Security vulnerability and compliance checking
 
-4. **`/validate-idea`** - Stage 1 command for orchestrated agent validation discussions
-   - 3-round structured validation process (Clarify → Challenge → Synthesize)
-   - Multi-agent collaboration (moderator, tech, business, UX, risk agents)
+**Architecture & Design**
+- `@technical-architect-agent` - System architecture and technology stack design
+- `@tech-agent` - Technical feasibility evaluation
+- `@integration-agent` - System integration and compatibility assessment
 
-5. **`/execute-prp`** - Stage 4 command for PRP implementation with embedded validation
+**User Experience**
+- `@user-experience-agent` - User workflow and adoption analysis
+- `@moderator-agent` - Orchestrates multi-agent validation discussions
 
-## Architecture & Agents
+**Task Management**
+- `@task-breakdown-agent` - Breaks ideas into implementable phases
+- `@context-manager` - Compresses and hands off context between tasks
+- `@context-researcher-agent` - Finds relevant documentation and patterns
 
-### Core Agent Types
+**Quality Assurance**
+- `@context-validator-agent` - Verifies documentation completeness
+- `@task-validator-agent` - Ensures logical task progression
+- `@technical-validator-agent` - Reviews architecture decisions
+- `@completeness-validator-agent` - Checks for gaps and missing requirements
+- `@functional-test-agent` - Validates feature correctness and UX
+- `@integration-test-agent` - Tests system compatibility and performance
 
-Located in `/.claude/agents/`:
-
-**Stage 1: Validation Agents**
-- **moderator-agent**: Orchestrates 3-round validation discussions
-- **tech-agent**: Evaluates technical feasibility
-- **business-validator**: Assesses market opportunity with structured validation
-- **user-experience-agent**: Analyzes user workflows and adoption
-- **risk-agent**: Identifies potential blockers and challenges
-
-**Stage 2: PRP Creation Agents**
-- **context-researcher-agent**: Finds relevant docs, patterns, libraries
-- **task-breakdown-agent**: Breaks ideas into implementable phases
-- **technical-architect-agent**: Designs system architecture for PRPs
-- **integration-agent**: Considers existing codebase integration
-
-**Stage 3: PRP Validation Agents**
-- **context-validator-agent**: Verifies documentation completeness
-- **task-validator-agent**: Ensures implementable task progression
-- **technical-validator-agent**: Reviews architecture decisions
-- **completeness-validator-agent**: Checks for gaps and completeness
-
-**Stage 4: Implementation Validation**
-- **code-review-agent**: Reviews implementation quality
-- **integration-agent**: Validates system integration
-
-### Data Resources
-
-- `/context/`: Contains existing system documentation and descriptions for context research
-- `/data/`: Optional directory for project-specific data files (personas, user types, etc.)
-
-### Output Structure
+## Project Structure
 
 ```
+.claude/
+├── agents/          # Agent definitions
+├── commands/        # Command implementations
 outputs/
-├── ideas/          # Stage 1: Validated concept documents
+├── ideas/          # Stage 1: Validated concepts
 ├── prps/           # Stage 2: Product Requirements Prompts
-└── validations/    # Stage 3: PRP validation reports
+└── validations/    # Stage 3-4: Validation reports
+context/            # Existing system documentation
+template/           # PRP templates
 ```
-
-### Templates
-
-- `/template/prp_base.md`: Base template for PRP generation with validation loops
-  - Includes context-rich structure with validation agents
-  - Requires MUST READ section, task breakdown, and validation framework
-  - Progressive success approach: start simple, validate, enhance
-
-## Development Patterns
-
-### PRP Structure Requirements
-
-Every PRP must include:
-1. **MUST READ section**: Critical documentation and references
-2. **Task breakdown**: Specific CREATE/MODIFY operations with dependencies
-3. **Validation agents**: Embedded with ≥80% confidence thresholds
-4. **Implementation blueprint**: Pseudocode and architectural patterns
-5. **Validation loops**: Executable commands for quality assurance
-
-### Agent Collaboration Flow
-
-1. Context research (existing system analysis)
-2. Architecture planning (technical design)
-3. Task breakdown (implementation phases)
-4. Validation embedding (quality checkpoints)
-
-### Quality Gates
-
-- **Stage 1 Success**: Validated idea with stakeholder buy-in
-- **Stage 2 Success**: PRP with embedded validation framework
-- **Stage 3 Success**: Quality score >8/10
-- **Stage 4 Success**: ≥80% confidence from all validation agents
-
-
-## Build & Test Commands
-
-### TypeScript Projects
-- **Type checking**: `tsc --no-emit` (runs automatically after Write/Edit operations via hooks)
-- **No package.json found**: This is a documentation/agent framework project
-
-### Python Projects (when applicable)
-- **Linting**: `ruff check [file]` or `ruff check src/`
-- **Type checking**: `mypy [file]` or `mypy src/`
-- **Testing**: `pytest` or `python -m pytest`
-- **Auto-fix**: `ruff check [file] --fix`
 
 ## Validation Framework
 
 ### Confidence Thresholds
-- **≥80% confidence**: Automatic progression to next phase
-- **<80% confidence**: Manual human validation required
-- **Quality gates**: Stage 3 requires >8/10 score for progression
+- **≥80%**: Automatic progression to next phase
+- **<80%**: Manual review required
+- **Stage 3 Gate**: PRP quality score must exceed 8/10
 
-### Embedded Validation Loops
-PRPs include executable validation commands:
-```bash
-# Level 1: Syntax & Style
-ruff check src/new_feature.py --fix
-mypy src/new_feature.py
+### PRP Requirements
+Every PRP must include:
+1. MUST READ section with critical documentation
+2. Task breakdown with specific file operations
+3. Embedded validation agents with confidence thresholds
+4. Implementation blueprint with pseudocode
+5. Validation loops with executable commands
 
-# Level 2: Unit Tests
-uv run pytest test_new_feature.py -v
 
-# Level 3: Integration Test
-curl -X POST http://localhost:8000/feature
-```
+## Workflow Success Criteria
 
-## Important Notes
+- **Stage 1**: Clear validated idea with stakeholder buy-in
+- **Stage 2**: Comprehensive PRP with embedded validation framework
+- **Stage 3**: PRP quality score >8/10 with complete specifications
+- **Stage 4**: All validation agents report ≥80% confidence
 
-1. Always check `/.claude/commands/start-project.md` for complete workflow details
-2. Validation agents require ≥80% confidence for automatic progression
-3. PRPs follow the `/template/prp_base.md` structure exactly
-4. Each stage has human checkpoints for approval before proceeding
-5. Context research uses `/context/` folder for existing system documentation
-6. TypeScript type checking runs automatically via post-tool-use hooks
+## Key Implementation Notes
+
+1. Commands and agents are defined in `.claude/` directory structure
+2. Use `/agents` command to view and manage available agents
+3. Agent collaboration follows: Context Research → Architecture Planning → Task Breakdown → Validation
+4. Each stage includes human checkpoints for approval
+5. Context folder contains existing system descriptions for integration

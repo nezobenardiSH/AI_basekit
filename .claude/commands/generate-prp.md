@@ -73,7 +73,7 @@ Include validation requirements for each implementation phase:
 After each implementation phase, call the following validation agents:
 
 ### Phase Validation Requirements
-- **@code-review-agent**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
+- **@code-reviewer**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
 - **@functional-test-agent**: Validate feature correctness and user experience (Target: ≥80% confidence)  
 - **@integration-test-agent**: Test system compatibility and performance (Target: ≥80% confidence)
 - **@security-agent**: Check security vulnerabilities and compliance (Target: ≥80% confidence)
@@ -89,47 +89,16 @@ Each agent should provide:
 - Pass/fail status for phase progression
 ```
 
-### Validation Checkpoints (Configure Based on Project)
-These are commands the AI can run to verify the implementation is working correctly.
-**Configure based on your project's tech stack and available tools.**
+### Validation Framework
+The PRP should define how validation will be performed using the embedded validation agents.
 
-**Check your project for:**
-- **Package files**: `package.json`, `pyproject.toml`, `requirements.txt`, `Gemfile`, etc.
-- **Config files**: `.eslintrc`, `pytest.ini`, `tsconfig.json`, etc.  
-- **Test directories**: `tests/`, `__tests__/`, `spec/`, etc.
-- **Scripts**: Check `package.json` scripts or `Makefile` for existing validation commands
+**Validation Approach:**
+- Each implementation phase triggers validation agents
+- Agents provide confidence scores (0-100%)
+- ≥80% confidence allows automatic progression
+- <80% confidence requires manual review
 
-**Include validation commands that work in your project:**
-
-```bash
-# Python projects with pytest and ruff
-pytest tests/ -v
-ruff check --fix .
-mypy .
-
-# Node.js projects with npm scripts
-npm test
-npm run lint
-npm run type-check
-
-# Generic commands that often work
-# Run existing test suite (if it exists)
-make test
-
-# Check if linting is configured
-make lint
-```
-
-**Instructions for PRP Creation:**
-1. **Check what tools are installed** in the target project
-2. **Look for existing scripts** in package.json, Makefile, or project config
-3. **Only include commands that will actually work** in that environment
-4. **If no validation tools exist**, rely on validation agents only
-
-**Fallback**: If no validation checkpoints are available, include this note in the PRP:
-```markdown
-Note: No automated validation tools configured. Rely on validation agents for quality assurance.
-```
+**Note**: The validation framework relies on the specialized validation agents (@code-reviewer, @functional-test-agent, @integration-test-agent, @security-agent) rather than external tools or commands.
 
 *** CRITICAL AFTER YOU ARE DONE RESEARCHING AND EXPLORING THE CODEBASE AND COLLABORATING WITH AGENTS BEFORE YOU START WRITING THE PRP ***
 

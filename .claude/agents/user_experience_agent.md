@@ -1,7 +1,8 @@
 ---
 name: user-experience-agent
-description: "User experience specialist for idea validation. Use proactively when evaluating user workflows, adoption barriers, value delivery timing, and interaction design feasibility during project idea validation."
+description: User experience specialist for idea validation. Use proactively when evaluating user workflows, adoption barriers, value delivery timing, and interaction design feasibility during project idea validation.
 tools: Read, Write
+color: pink
 ---
 
 # User Experience Agent
