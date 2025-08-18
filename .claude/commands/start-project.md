@@ -27,27 +27,12 @@ Execute end-to-end AI project development workflow: validate ideas → create co
    - If provided: Use initial idea description from command args
    - If not provided: Prompt user: "Describe your AI project idea in 2-3 sentences"
 
-2. **Initialize Validation Agents**
-   - **@moderator-agent:** Orchestrates validation conversation, manages rounds
-   - **@tech-agent:** Evaluates technical feasibility, architecture, scalability
-   - **@business-agent:** Assesses market opportunity, monetization, competition
-   - **@business-validator:** Provides structured 3-round business validation (clarifying questions, challenging assumptions, strategic recommendations)
-   - **@user-experience-agent:** Analyzes user workflows, pain points, value delivery
-   - **@risk-agent:** Identifies potential blockers, challenges, assumptions
+2. **Execute Idea Validation**
+   - **Command:** `/validate-idea`
+   - Orchestrates multi-agent validation through 3 structured rounds
+   - See `/validate-idea` command for detailed agent collaboration process
 
-3. **3-Round Conversational Validation**
-- **Validate idea** `/validate-idea`
-   - **Round 1: Clarifying Questions (3 cycles)**
-     - Agents ask clarifying questions about scope, users, assumptions
-     - User provides detailed answers to build shared understanding
-   - **Round 2: Challenge and Debate**
-     - Agents challenge assumptions from their expertise areas
-     - User defends and refines idea through active discussion
-   - **Round 3: Synthesis and Refinement**
-     - Agents collaborate to synthesize insights
-     - Moderator guides final refinement of core concept
-
-4. **Generate Validated Idea Document**
+3. **Generate Validated Idea Document**
    - **Location:** `outputs/ideas/[project-name]-validated-[date].md`
    - **Content:** Refined concept, value proposition, success metrics, risk assessment
 
@@ -58,119 +43,57 @@ Execute end-to-end AI project development workflow: validate ideas → create co
 ## Stage 2: Requirements Engineering (PRP Creation)
 
 ### Process
-1. **Initialize PRP Creation Agents**
-   - **@context-researcher-agent:** Finds relevant docs, patterns, libraries
-   - **@task-breakdown-agent:** Breaks idea into implementable phases and tasks
-   - **@technical-architect-agent:** Defines system design, tech stack, dependencies
-   - **@integration-agent:** Considers existing codebase and constraints
+1. **Execute PRP Generation**
+   - **Command:** `/generate-prp outputs/ideas/[project-name]-validated-[date].md`
+   - Orchestrates specialized agents for comprehensive PRP creation
+   - See `/generate-prp` command for detailed agent collaboration process
 
-2. **Context Gathering and Analysis**
-   - **@context-researcher-agent** scans `context/` folder for existing project information
-   - Agents research external documentation and best practices as needed
-   - Document critical requirements and constraints from existing system
-
-3. **Generate Comprehensive PRP**
-   - **Execute PRP creation:** `/generate-prp outputs/ideas/[project-name]-validated-[date].md`
-   - **Output follows `prp_base.md` template structure:**
-     - **Header**: Project name and context-rich description with validation loops
-     - **MUST READ section**: Include all necessary documentation, examples, and caveats
-     - **CRITICAL warnings**: Library requirements, gotchas, and implementation pitfalls
-     - **Task breakdown**: Specific MODIFY/CREATE file operations with patterns to follow
-     - **Validation requirements**: Embedded confidence scoring agents and testing procedures
-   - **PRP Creation agents provide context for each section:**
-     - **@context-researcher-agent:** Supplies MUST READ documentation and critical warnings
-     - **@task-breakdown-agent:** Creates detailed task breakdown with file operations
-     - **@technical-architect-agent:** Defines architecture patterns and technical approach
-     - **@integration-agent:** Ensures compatibility with existing system context
-
-4. **PRP Output Generation**
+2. **PRP Output**
    - **Location:** `outputs/prps/[project-name]-[date].md`
-   - **Structure:** Follows `templates/prp_base.md` format exactly:
-     ```markdown
-     name: "Project Name - Context-Rich with Validation Loops"
-     description: |
-       Template optimized for AI agents with validation capabilities
-     
-     # MUST READ - Include these in context window
-     # CRITICAL: [Implementation warnings and gotchas]
-     # [Task breakdown with file operations]
-     # [Validation loops with confidence scoring]
-     ```
-   - **Content:** Context-rich implementation prompt with embedded validation agents following prp_base structure
+   - **Structure:** Follows `templates/prp_base.md` format
+   - **Content:** Context-rich implementation prompt with embedded validation framework
 
-**Checkpoint:** "Review generated PRP with embedded validation framework and proceed to Stage 3 - PRP Validation? (y/n/revise)"
+**Checkpoint:** "Review generated PRP and proceed to Stage 3 - PRP Validation? (y/n/revise)"
 
 ---
 
 ## Stage 3: PRP Validation
 
 ### Process
-### Process
-1. **Execute PRP Validation Command:** `/validate-prp outputs/prps/[project-name]-[date].md`
+1. **Execute PRP Validation**
+   - **Command:** `/validate-prp outputs/prps/[project-name]-[date].md`
+   - Orchestrates 4 validation agents for comprehensive quality review
+   - See `/validate-prp` command for detailed validation process
 
-2. **The `/validate-prp` command orchestrates comprehensive quality review:**
-   - **@context-validator-agent:** Verifies sufficient context and documentation completeness
-   - **@task-validator-agent:** Ensures implementable, logical task progression and appropriate granularity
-   - **@technical-validator-agent:** Reviews architecture decisions, technology choices, and integration feasibility
-   - **@completeness-validator-agent:** Checks for gaps, missing requirements, and overall PRP completeness
+2. **Quality Gate Decision**
+   - **≥8.0 Score:** Ready for execution
+   - **6.0-7.9 Score:** Minor issues to address
+   - **<6.0 Score:** Requires significant revision
 
-3. **Quality Assessment and Scoring:**
-   - Each agent provides confidence score (1-10) and detailed findings
-   - Cross-agent validation for consistency and coverage
-   - Overall PRP quality score calculation and implementation readiness assessment
-   - Generate comprehensive validation report with prioritized improvement recommendations
-
-4. **Quality Gate Decision:**
-   - **≥8.0 Overall Score:** "PRP validated successfully. Ready for Stage 4 - PRP Execution? (y/n)"
-   - **6.0-7.9 Overall Score:** "PRP has minor issues. Address recommendations before proceeding? (y/n)"
-   - **<6.0 Overall Score:** "PRP requires significant revision. Return to Stage 2 for improvement? (y/n)"
+3. **Output**
+   - **Location:** `outputs/validations/prp-validation-[project-name]-[date].md`
 
 **Checkpoint:** "PRP validated with quality score [X/10]. Proceed to Stage 4 - PRP Execution? (y/n)"
-
-**Output:** `outputs/validations/prp-validation-[project-name]-[date].md`
 
 ---
 
 ## Stage 4: PRP Execution
 
 ### Process
-1. **Pre-Execution Setup**
-   - Present validated PRP to user
-   - Explain execution approach (recommended: Claude Code or similar)
-   - Confirm project structure and dependencies are ready
+1. **Execute PRP Implementation**
+   - **Command:** `/execute-prp outputs/prps/[project-name]-[date].md`
+   - Phase-by-phase implementation with embedded validation agents
+   - See `/execute-prp` command for detailed execution process
 
-2. **Phase-by-Phase Execution with Confidence Scoring**
-   - Execute PRP in phases as defined in document
-   - **After each phase:** Automatically call embedded validation subagents
-   - **Validation agents provide confidence scores (0-100%):**
-     - Code Review Agent, Functional Test Agent, Integration Agent, Security Agent
-   - **Confidence-based decision making:**
-     - **≥80% confidence:** "Phase validated successfully. Continue to next phase? (y/n)"
-     - **<80% confidence:** "Validation concerns detected. Please review manually before proceeding."
+2. **Validation-Driven Progression**
+   - **≥80% confidence:** Auto-proceed to next phase
+   - **<80% confidence:** Manual review required
+   - Validation agents: @code-reviewer, @functional-test-agent, @integration-test-agent, @security-agent
 
-3. **Continuous Validation Loop**
-   - Implement phase → Validate with agents → Generate confidence scores
-   - High confidence (≥80%): Auto-offer to proceed
-   - Low confidence (<80%): Require manual human validation
-   - Generate validation reports with confidence scores for each phase
-
-4. **Execution Completion**
-   - All phases implemented and validated
-   - **Final confidence check:** All agents must score ≥80% confidence
-   - Generate comprehensive execution report with confidence history
-   - **Deployment readiness:** Only achieved when all agents are confident
-
-**Example Validation Flow:**
-```
-Phase 1 Implementation Complete
-→ @code-review-agent: 85% confident ✓
-→ @functional-test-agent: 92% confident ✓  
-→ @integration-test-agent: 78% confident ⚠️
-→ @security-agent: 88% confident ✓
-
-Result: Manual review required (@integration-test-agent <80%)
-Action: "Please review integration concerns before proceeding to Phase 2"
-```
+3. **Output**
+   - Implementation code in project structure
+   - Validation reports for each phase
+   - **Location:** `outputs/validations/phase-[N]-validation.md`
 
 **Checkpoint:** "Implementation complete and validated. Project ready for deployment? (y/n)"
 

@@ -48,9 +48,7 @@ The AI agent only gets the context you are appending to the PRP and training dat
    - Specific patterns to mirror and where to find them?
    - Integration requirements and where to find them?
 
-## PRP Generation
 
-Using `templates/prp_base.md` as template:
 
 ### Critical Context to Include and pass to the AI agent as part of the PRP
 - **Documentation**: URLs with specific sections
@@ -75,7 +73,7 @@ Include validation requirements for each implementation phase:
 After each implementation phase, call the following validation agents:
 
 ### Phase Validation Requirements
-- **@code-review-agent**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
+- **@code-reviewer**: Review code quality, best practices, maintainability (Target: ≥80% confidence)
 - **@functional-test-agent**: Validate feature correctness and user experience (Target: ≥80% confidence)  
 - **@integration-test-agent**: Test system compatibility and performance (Target: ≥80% confidence)
 - **@security-agent**: Check security vulnerabilities and compliance (Target: ≥80% confidence)

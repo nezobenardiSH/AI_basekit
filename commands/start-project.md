@@ -33,6 +33,7 @@ Execute end-to-end AI project development workflow: validate ideas → create co
    - **@business-validator:** Provides structured 3-round business validation (clarifying questions, challenging assumptions, strategic recommendations)
    - **@user-experience-agent:** Analyzes user workflows, pain points, value delivery
    - **@risk-agent:** Identifies potential blockers, challenges, assumptions
+   
 
 3. **3-Round Conversational Validation**
 - **Validate idea** `/validate-idea`

@@ -41,8 +41,9 @@ Located in `/.claude/agents/`:
 **Stage 1: Validation Agents**
 - **moderator-agent**: Orchestrates 3-round validation discussions
 - **tech-agent**: Evaluates technical feasibility
-- **business-agent**: Assesses market opportunity
+- **business-validator**: Assesses market opportunity with structured validation
 - **user-experience-agent**: Analyzes user workflows and adoption
+- **risk-agent**: Identifies potential blockers and challenges
 
 **Stage 2: PRP Creation Agents**
 - **context-researcher-agent**: Finds relevant docs, patterns, libraries
